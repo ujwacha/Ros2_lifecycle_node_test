@@ -1,0 +1,15 @@
+from launch import LaunchDescription
+from launch_ros.actions import Node
+def generate_launch_description():
+    return LaunchDescription([
+        Node(
+            package='managed_talker',
+            executable='everything_launcher',
+            parameters=[
+                {"lifecycles_list": ["talker", "listener", "lifetalker"]}
+#                {"lifecycles_list": ["talker", "listener" ]}
+            ],
+            output='screen',
+            emulate_tty=True
+        )
+    ])

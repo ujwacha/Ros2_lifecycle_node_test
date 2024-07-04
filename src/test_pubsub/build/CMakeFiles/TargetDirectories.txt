@@ -1,0 +1,11 @@
+/home/light/dev_ws/src/test_pubsub/build/CMakeFiles/uninstall.dir
+/home/light/dev_ws/src/test_pubsub/build/CMakeFiles/test_pubsub_uninstall.dir
+/home/light/dev_ws/src/test_pubsub/build/CMakeFiles/tester_component.dir
+/home/light/dev_ws/src/test_pubsub/build/CMakeFiles/node_msg_no.dir
+/home/light/dev_ws/src/test_pubsub/build/CMakeFiles/test.dir
+/home/light/dev_ws/src/test_pubsub/build/CMakeFiles/edit_cache.dir
+/home/light/dev_ws/src/test_pubsub/build/CMakeFiles/rebuild_cache.dir
+/home/light/dev_ws/src/test_pubsub/build/CMakeFiles/list_install_components.dir
+/home/light/dev_ws/src/test_pubsub/build/CMakeFiles/install.dir
+/home/light/dev_ws/src/test_pubsub/build/CMakeFiles/install/local.dir
+/home/light/dev_ws/src/test_pubsub/build/CMakeFiles/install/strip.dir

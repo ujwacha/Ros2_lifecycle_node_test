@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5c63489caa0c0b13e6e6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "managed_talker",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_activator_exec::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_activator_exec-a6c859dee2c4a6dbdf0f.json",
+					"name" : "all_activator_exec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "everything_launcher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-everything_launcher-740f312d515adb96cd91.json",
+					"name" : "everything_launcher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "life_srv_tester::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-life_srv_tester-50d13d29f2af899d2451.json",
+					"name" : "life_srv_tester",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "life_tester::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-life_tester-345d107a41133991c3bf.json",
+					"name" : "life_tester",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "life_tester_exec::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-life_tester_exec-710f9ab5e410dc1797db.json",
+					"name" : "life_tester_exec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "managed_talker_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-managed_talker_uninstall-c59c66875a0be6d0d764.json",
+					"name" : "managed_talker_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0d6121b668fb65a107bc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/light/dev_ws/src/managed_talker/build",
+		"source" : "/home/light/dev_ws/src/managed_talker"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

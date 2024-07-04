@@ -1,0 +1,11 @@
+/home/light/dev_ws/src/component_practice/build/CMakeFiles/uninstall.dir
+/home/light/dev_ws/src/component_practice/build/CMakeFiles/component_practice_uninstall.dir
+/home/light/dev_ws/src/component_practice/build/CMakeFiles/talker_component.dir
+/home/light/dev_ws/src/component_practice/build/CMakeFiles/talker.dir
+/home/light/dev_ws/src/component_practice/build/CMakeFiles/test.dir
+/home/light/dev_ws/src/component_practice/build/CMakeFiles/edit_cache.dir
+/home/light/dev_ws/src/component_practice/build/CMakeFiles/rebuild_cache.dir
+/home/light/dev_ws/src/component_practice/build/CMakeFiles/list_install_components.dir
+/home/light/dev_ws/src/component_practice/build/CMakeFiles/install.dir
+/home/light/dev_ws/src/component_practice/build/CMakeFiles/install/local.dir
+/home/light/dev_ws/src/component_practice/build/CMakeFiles/install/strip.dir

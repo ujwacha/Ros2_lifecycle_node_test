@@ -1,0 +1,19 @@
+(undo-tree-save-format-version . 1)
+"47e1a38ce35fbc03ee95fc4303bbe3ba1b4f1414"
+[nil nil nil nil (26236 28709 690693 650000) 0 nil]
+([nil nil ((191 . 194) (170 . 191) (150 . 170) (#(" " 0 1 (fontified t)) . -150) (undo-tree-id11 . -1) 151 (#("\\" 0 1 (fontified t)) . -151) (undo-tree-id12 . -1) 152 (144 . 152) (#("e" 0 1 (fontified t)) . -144) (undo-tree-id13 . -1) (#("o" 0 1 (fontified t)) . -145) (undo-tree-id14 . -1) 146 (136 . 146) (135 . 136) (114 . 135) (102 . 114) (95 . 103) (#("n" 0 1 (fontified t face font-lock-keyword-face)) . -95) (undo-tree-id15 . -1) 96 (95 . 96) (74 . 95) (73 . 74) (#(" " 0 1 (fontified t)) . -73) (undo-tree-id16 . -1) 74 (62 . 74) (51 . 62) (#("o" 0 1 (fontified t)) . -51) (undo-tree-id17 . -1) (#("r" 0 1 (fontified t)) . -52) (undo-tree-id18 . -1) 53 (37 . 53) (36 . 37) (32 . 36) (26 . 32) (#("n" 0 1 (fontified t face font-lock-keyword-face)) . -26) (undo-tree-id19 . -1) (#("p" 0 1 (fontified t)) . -27) (undo-tree-id20 . -1) 28 (22 . 28) (1 . 22) (#("
+" 0 1 (fontified t)) . -1) (undo-tree-id21 . -1) (#("i" 0 1 (fontified t)) . -2) (undo-tree-id22 . -1) 3 (2 . 3) (1 . 2) (t . -1) 1) nil (26236 28709 690677 584000) 0 nil])
+([nil nil ((209 . 215) (#("n" 0 1 (fontified t face font-lock-keyword-face)) . -209) (undo-tree-id10 . -1) 210 (196 . 210) (195 . 196)) nil (26236 28709 690613 420000) 0 nil])
+([nil nil ((207 . 217)) nil (26236 28709 690603 207000) 0 nil])
+([nil nil ((215 . 218) (#("o" 0 1 (fontified t)) . -215) (undo-tree-id8 . -1) (#("s" 0 1 (fontified t)) . -216) (undo-tree-id9 . -1) 217) nil (26236 28709 690597 513000) 0 nil])
+([nil nil ((231 . 237) (#("f" 0 1 (fontified t)) . -231) (undo-tree-id6 . -1) (#("i" 0 1 (fontified t)) . -232) (undo-tree-id7 . -1) 233 (232 . 233) (226 . 232)) nil (26236 28709 690583 152000) 0 nil])
+([nil nil ((#("a" 0 1 (fontified t)) . -256) (undo-tree-id5 . -1) 257 (238 . 257) (237 . 238)) nil (26236 28709 690570 587000) 0 nil])
+([nil nil ((#("from launch_ros.actions import Node
+from launch import LaunchDescription
+from launch.actions import (DeclareLaunchArgument, EmitEvent, ExecuteProcess, LogInfo, RegisterEventHandler, TimerAction)
+from launch.conditions import IfCondition
+from launch.ecent_" 0 4 (fontified t face font-lock-keyword-face) 4 24 (fontified t) 24 30 (fontified t face font-lock-keyword-face) 30 36 (fontified t) 36 40 (fontified t face font-lock-keyword-face) 40 48 (fontified t) 48 54 (fontified t face font-lock-keyword-face) 54 73 (fontified t) 73 77 (fontified t face font-lock-keyword-face) 77 93 (fontified t) 93 99 (fontified t face font-lock-keyword-face) 99 100 (fontified t) 100 101 (fontified t face (rainbow-delimiters-depth-1-face)) 101 193 (fontified t) 193 194 (fontified t face (rainbow-delimiters-depth-1-face)) 194 195 (fontified t) 195 199 (fontified t face font-lock-keyword-face) 199 218 (fontified t) 218 224 (fontified t face font-lock-keyword-face) 224 237 (fontified t) 237 241 (fontified t face font-lock-keyword-face) 241 255 (fontified t)) . 1) (undo-tree-id0 . -254) (undo-tree-id1 . -254) (undo-tree-id2 . -254) (undo-tree-id3 . -255) (undo-tree-id4 . -254)) nil (26236 28709 690558 503000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 4191 . 4192) (nil fontified nil 1 . 4192) (1 . 4192)) nil (26236 28709 690500 785000) 0 nil])
+([nil nil ((4192 . 4193)) nil (26236 28709 690485 682000) 0 nil])
+([nil current ((#("s" 0 1 (fontified t)) . -2669) (undo-tree-id23 . -1) 2670 (2669 . 2670) (#(" " 0 1 (fontified t)) . 2669) (t 26236 28709 700749 903000)) nil (26236 31566 550466 343000) 0 nil])
+nil

@@ -1,0 +1,4 @@
+source;share/listener_com/local_setup.bash
+source;share/listener_com/local_setup.dsv
+source;share/listener_com/local_setup.sh
+source;share/listener_com/local_setup.zsh

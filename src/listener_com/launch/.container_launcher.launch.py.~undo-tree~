@@ -1,0 +1,16 @@
+(undo-tree-save-format-version . 1)
+"89ba0190bdd0233bd223266ad2f0a5c5badc5af4"
+[nil nil nil nil (26219 17427 783548 204000) 0 nil]
+([nil nil ((#("component" 0 9 (fontified t face font-lock-string-face)) . 484) (undo-tree-id43 . -8) (t 26219 17391 559740 540000)) nil (26219 17427 783545 522000) 0 nil])
+([nil nil ((#("_" 0 1 (fontified t face font-lock-string-face)) . 484)) nil (26219 17427 783541 145000) 0 nil])
+([nil nil ((#("practice" 0 7 (fontified t face font-lock-string-face) 7 8 (fontified t face font-lock-string-face)) . 484) (undo-tree-id42 . -7)) nil (26219 17427 783539 296000) 0 nil])
+([nil nil ((487 . 496) (484 . 487)) nil (26219 17427 783536 87000) 0 nil])
+([nil nil ((#("component" 0 9 (fontified t face font-lock-string-face)) . 523) (undo-tree-id41 . -8)) nil (26219 17427 783533 558000) 0 nil])
+([nil nil ((#("_" 0 1 (fontified t face font-lock-string-face)) . 523)) nil (26219 17427 783530 206000) 0 nil])
+([nil nil ((#("practice" 0 8 (fontified t face font-lock-string-face)) . 523) (undo-tree-id40 . -7)) nil (26219 17427 783527 745000) 0 nil])
+([nil nil ((523 . 535)) nil (26219 17427 783523 657000) 0 nil])
+([nil nil ((#("PraPub" 0 6 (fontified t face font-lock-string-face)) . 537) (undo-tree-id39 . -5)) nil (26219 17427 783519 648000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 553 . 554) (nil fontified nil 523 . 554) (523 . 554) (#("listener_com::" 0 14 (fontified t face font-lock-string-face)) . 523) (undo-tree-id0 . -13) (undo-tree-id1 . 2) (undo-tree-id2 . -14) (undo-tree-id3 . -14) (undo-tree-id4 . -14) (undo-tree-id5 . -14) (undo-tree-id6 . -14) (undo-tree-id7 . -14) (undo-tree-id8 . -14) (undo-tree-id9 . -14) (undo-tree-id10 . -14) (undo-tree-id11 . -14) (undo-tree-id12 . -14) (undo-tree-id13 . -14) (undo-tree-id14 . -13) (undo-tree-id15 . -14) (undo-tree-id16 . -14) (undo-tree-id17 . -14) (undo-tree-id18 . -14) (undo-tree-id19 . -14) (undo-tree-id20 . -14) (undo-tree-id21 . -14) (undo-tree-id22 . -14) (undo-tree-id23 . -14) (undo-tree-id24 . -13) (undo-tree-id25 . -14) (undo-tree-id26 . -13) (undo-tree-id27 . -11) (undo-tree-id28 . -11) (undo-tree-id29 . -11) (undo-tree-id30 . -11) (undo-tree-id31 . -11) (undo-tree-id32 . -11) (undo-tree-id33 . -11) (undo-tree-id34 . -11) (undo-tree-id35 . -11) (undo-tree-id36 . -11) (undo-tree-id37 . -14) (undo-tree-id38 . -14) 537) nil (26219 17427 783505 488000) 0 nil])
+([nil nil ((#("talker" 0 6 (fontified t face font-lock-string-face)) . 579) (undo-tree-id44 . -5) (undo-tree-id45 . -6) (t 26219 17427 791970 687000)) nil (26219 17431 290058 273000) 0 nil])
+([nil current ((579 . 587)) nil (26219 17431 290026 802000) 0 nil])
+nil

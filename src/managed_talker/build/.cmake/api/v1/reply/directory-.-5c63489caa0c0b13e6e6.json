@@ -1,0 +1,595 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"rclcpp_components_register_node",
+			"ament_index_register_resource",
+			"ament_cmake_environment_generate_package_run_dependencies_marker",
+			"include",
+			"ament_execute_extensions",
+			"ament_package",
+			"ament_cmake_environment_generate_parent_prefix_path_marker",
+			"ament_environment_hooks",
+			"ament_generate_package_environment",
+			"ament_index_register_package",
+			"_ament_package"
+		],
+		"files" : 
+		[
+			"/opt/ros/humble/share/rclcpp_components/cmake/rclcpp_components_register_node.cmake",
+			"CMakeLists.txt",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/index/ament_index_register_resource.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment/ament_cmake_environment_package_hook.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_generate_package_environment.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/index/ament_index_register_package.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/index/ament_cmake_index_package_hook.cmake",
+			"/opt/ros/humble/share/rclcpp_components/cmake/rclcpp_components_package_hook.cmake",
+			"/opt/ros/humble/share/ament_cmake_export_targets/cmake/ament_cmake_export_targets_package_hook.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 77,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 77,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 86,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 94,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 100,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 66,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 48,
+				"parent" : 10
+			},
+			{
+				"file" : 3,
+				"parent" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 47,
+				"parent" : 12
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 29,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 105,
+				"parent" : 14
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 48,
+				"parent" : 12
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 43,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 105,
+				"parent" : 17
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 48,
+				"parent" : 10
+			},
+			{
+				"file" : 7,
+				"parent" : 19
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 20,
+				"parent" : 20
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 70,
+				"parent" : 21
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 87,
+				"parent" : 21
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 70,
+				"parent" : 21
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 87,
+				"parent" : 21
+			},
+			{
+				"command" : 9,
+				"file" : 7,
+				"line" : 26,
+				"parent" : 20
+			},
+			{
+				"command" : 0,
+				"file" : 8,
+				"line" : 91,
+				"parent" : 26
+			},
+			{
+				"command" : 0,
+				"file" : 8,
+				"line" : 91,
+				"parent" : 26
+			},
+			{
+				"command" : 0,
+				"file" : 8,
+				"line" : 91,
+				"parent" : 26
+			},
+			{
+				"command" : 0,
+				"file" : 8,
+				"line" : 107,
+				"parent" : 26
+			},
+			{
+				"command" : 0,
+				"file" : 8,
+				"line" : 119,
+				"parent" : 26
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 48,
+				"parent" : 10
+			},
+			{
+				"file" : 10,
+				"parent" : 32
+			},
+			{
+				"command" : 10,
+				"file" : 10,
+				"line" : 16,
+				"parent" : 33
+			},
+			{
+				"command" : 2,
+				"file" : 9,
+				"line" : 29,
+				"parent" : 34
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 105,
+				"parent" : 35
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 48,
+				"parent" : 10
+			},
+			{
+				"file" : 11,
+				"parent" : 37
+			},
+			{
+				"command" : 2,
+				"file" : 11,
+				"line" : 18,
+				"parent" : 38
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 105,
+				"parent" : 39
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 48,
+				"parent" : 10
+			},
+			{
+				"file" : 12,
+				"parent" : 41
+			},
+			{
+				"command" : 0,
+				"file" : 12,
+				"line" : 28,
+				"parent" : 42
+			},
+			{
+				"command" : 0,
+				"file" : 12,
+				"line" : 28,
+				"parent" : 42
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 68,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 122,
+				"parent" : 45
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 150,
+				"parent" : 45
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 157,
+				"parent" : 45
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/managed_talker",
+			"paths" : 
+			[
+				"life_tester_exec"
+			],
+			"targetId" : "life_tester_exec::@6890427a1f51a3e7e1df",
+			"targetIndex" : 4,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/managed_talker",
+			"paths" : 
+			[
+				"life_srv_tester"
+			],
+			"targetId" : "life_srv_tester::@6890427a1f51a3e7e1df",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/managed_talker",
+			"paths" : 
+			[
+				"all_activator_exec"
+			],
+			"targetId" : "all_activator_exec::@6890427a1f51a3e7e1df",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libeverything_launcher.so"
+			],
+			"targetId" : "everything_launcher::@6890427a1f51a3e7e1df",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"liblife_tester.so"
+			],
+			"targetId" : "life_tester::@6890427a1f51a3e7e1df",
+			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "share/managed_talker",
+			"paths" : 
+			[
+				"launch"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/package_run_dependencies",
+			"paths" : 
+			[
+				"build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/managed_talker"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/parent_prefix_path",
+			"paths" : 
+			[
+				"build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/managed_talker"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Unspecified",
+			"destination" : "share/managed_talker/environment",
+			"paths" : 
+			[
+				"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "share/managed_talker/environment",
+			"paths" : 
+			[
+				"build/ament_cmake_environment_hooks/ament_prefix_path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "share/managed_talker/environment",
+			"paths" : 
+			[
+				"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "Unspecified",
+			"destination" : "share/managed_talker/environment",
+			"paths" : 
+			[
+				"build/ament_cmake_environment_hooks/path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "share/managed_talker",
+			"paths" : 
+			[
+				"build/ament_cmake_environment_hooks/local_setup.bash"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "Unspecified",
+			"destination" : "share/managed_talker",
+			"paths" : 
+			[
+				"build/ament_cmake_environment_hooks/local_setup.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "Unspecified",
+			"destination" : "share/managed_talker",
+			"paths" : 
+			[
+				"build/ament_cmake_environment_hooks/local_setup.zsh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "share/managed_talker",
+			"paths" : 
+			[
+				"build/ament_cmake_environment_hooks/local_setup.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "Unspecified",
+			"destination" : "share/managed_talker",
+			"paths" : 
+			[
+				"build/ament_cmake_environment_hooks/package.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/packages",
+			"paths" : 
+			[
+				"build/ament_cmake_index/share/ament_index/resource_index/packages/managed_talker"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/rclcpp_components",
+			"paths" : 
+			[
+				"build/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/managed_talker"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 43,
+			"component" : "Unspecified",
+			"destination" : "share/managed_talker/cmake",
+			"exportName" : "exprot_everything_launcher",
+			"exportTargets" : 
+			[
+				{
+					"id" : "everything_launcher::@6890427a1f51a3e7e1df",
+					"index" : 1
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/share/managed_talker/cmake/exprot_everything_launcherExport.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 44,
+			"component" : "Unspecified",
+			"destination" : "share/managed_talker/cmake",
+			"exportName" : "export_life_tester_component",
+			"exportTargets" : 
+			[
+				{
+					"id" : "life_tester::@6890427a1f51a3e7e1df",
+					"index" : 3
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/share/managed_talker/cmake/export_life_tester_componentExport.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 46,
+			"component" : "Unspecified",
+			"destination" : "share/managed_talker/cmake",
+			"paths" : 
+			[
+				"build/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 47,
+			"component" : "Unspecified",
+			"destination" : "share/managed_talker/cmake",
+			"paths" : 
+			[
+				"build/ament_cmake_core/managed_talkerConfig.cmake",
+				"build/ament_cmake_core/managed_talkerConfig-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 48,
+			"component" : "Unspecified",
+			"destination" : "share/managed_talker",
+			"paths" : 
+			[
+				"package.xml"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

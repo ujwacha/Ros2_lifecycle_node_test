@@ -1,0 +1,645 @@
+(undo-tree-save-format-version . 1)
+"2e766ce50cfe90277b731b18cbef96ff547fa320"
+[nil nil nil nil (26225 59440 273657 152000) 0 nil]
+([nil nil ((nil rear-nonsticky nil 11000 . 11001) (nil fontified nil 10884 . 11001) (nil fontified nil 10883 . 10884) (nil category c->-as-paren-syntax 10883 . 10884) (nil fontified nil 10868 . 10883) (nil fontified nil 10867 . 10868) (nil category c-<-as-paren-syntax 10867 . 10868) (nil fontified nil 10836 . 10867) (nil fontified nil 10835 . 10836) (nil category c->-as-paren-syntax 10835 . 10836) (nil fontified nil 10820 . 10835) (nil fontified nil 10819 . 10820) (nil category c-<-as-paren-syntax 10819 . 10820) (nil fontified nil 10597 . 10819) (nil fontified nil 10596 . 10597) (nil category c->-as-paren-syntax 10596 . 10597) (nil fontified nil 10579 . 10596) (nil fontified nil 10578 . 10579) (nil category c-<-as-paren-syntax 10578 . 10579) (nil fontified nil 10552 . 10578) (nil fontified nil 10551 . 10552) (nil category c->-as-paren-syntax 10551 . 10552) (nil fontified nil 10550 . 10551) (nil category c->-as-paren-syntax 10550 . 10551) (nil fontified nil 10529 . 10550) (nil fontified nil 10528 . 10529) (nil category c-<-as-paren-syntax 10528 . 10529) (nil fontified nil 10492 . 10528) (nil fontified nil 10491 . 10492) (nil category c-<-as-paren-syntax 10491 . 10492) (nil fontified nil 6010 . 10491) (nil fontified nil 6009 . 6010) (nil fontified nil 4452 . 6009) (nil fontified nil 4451 . 4452) (nil category c->-as-paren-syntax 4451 . 4452) (nil fontified nil 4430 . 4451) (nil fontified nil 4429 . 4430) (nil category c-<-as-paren-syntax 4429 . 4430) (nil fontified nil 2639 . 4429) (nil fontified nil 2638 . 2639) (nil category c->-as-paren-syntax 2638 . 2639) (nil fontified nil 2617 . 2638) (nil fontified nil 2616 . 2617) (nil category c-<-as-paren-syntax 2616 . 2617) (nil fontified nil 1 . 2616) (1 . 11001) (t 26225 59416 448614 212000)) nil (26225 59440 273644 35000) 0 nil])
+([nil nil ((#("/// LifecycleTalker inheriting from rclcpp_lifecycle::LifecycleNode
+/**
+ * The lifecycle talker does not like the regular \"talker\" node
+ * inherit from node, but rather from lifecyclenode. This brings
+ * in a set of callbacks which are getting invoked depending on
+ * the current state of the node.
+ * Every lifecycle node has a set of services attached to it
+ * which make it controllable from the outside and invoke state
+ * changes.
+ * Available Services as for Beta1:
+ * - <node_name>__get_state
+ * - <node_name>__change_state
+ * - <node_name>__get_available_states
+ * - <node_name>__get_available_transitions
+ * Additionally, a publisher for state change notifications is
+ * created:
+ * - <node_name>__transition_event
+ " 0 1 (fontified t face font-lock-comment-delimiter-face c-in-sws t c-is-sws t) 1 4 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 4 68 (fontified t face font-lock-comment-face c-in-sws t) 68 71 (fontified t face font-lock-doc-face c-in-sws t) 71 460 (fontified t face font-lock-doc-face c-in-sws t) 460 472 (fontified t face font-lock-doc-face c-in-sws t) 472 680 (fontified t face font-lock-doc-face c-in-sws t) 680 687 (fontified t face (font-lock-constant-face font-lock-doc-face) c-in-sws t) 687 724 (fontified t face font-lock-doc-face c-in-sws t) 724 725 (fontified t face font-lock-doc-face c-in-sws t)) . 1077) (undo-tree-id182 . -724) (undo-tree-id183 . -724) (undo-tree-id184 . -614) (undo-tree-id185 . -724) (undo-tree-id186 . -724) (t 26225 59440 308899 485000)) nil (26225 59536 864319 643000) 0 nil])
+([nil nil ((#("*/
+" 0 1 (fontified t) 1 2 (fontified t) 2 3 (fontified t c-is-sws t c-in-sws t)) . 1077) (undo-tree-id180 . -2) (undo-tree-id181 . 3)) nil (26225 59536 864307 783000) 0 nil])
+([nil nil ((#("  /// LifecycleTalker constructor
+" 0 2 (fontified t c-in-sws t c-is-sws t) 2 3 (fontified t c-in-sws t c-is-sws t face font-lock-comment-delimiter-face) 3 6 (fontified t c-in-sws t face font-lock-comment-delimiter-face) 6 34 (fontified t c-in-sws t face font-lock-comment-face)) . 1150) (undo-tree-id179 . -33)) nil (26225 59536 864303 8000) 0 nil])
+([nil nil ((#("  /**
+" 0 2 (fontified t c-in-sws t) 2 3 (fontified t c-in-sws t c-is-sws t face font-lock-doc-face) 3 5 (fontified t c-in-sws t face font-lock-doc-face) 5 6 (fontified t c-in-sws t face font-lock-doc-face)) . 1150) (undo-tree-id178 . -5)) nil (26225 59536 864298 990000) 0 nil])
+([nil nil ((#("   * The lifecycletalker/lifecyclenode constructor has the same
+" 0 63 (fontified t) 63 64 (fontified t)) . 1150) (undo-tree-id177 . -63)) nil (26225 59536 864295 537000) 0 nil])
+([nil nil ((#("   * arguments a regular node.
+" 0 30 (fontified t) 30 31 (fontified t)) . 1150) (undo-tree-id176 . -30)) nil (26225 59536 864291 514000) 0 nil])
+([nil nil ((#("   */
+" 0 5 (fontified t) 5 6 (fontified t c-in-sws t)) . 1150) (undo-tree-id175 . -5)) nil (26225 59536 864288 271000) 0 nil])
+([nil nil ((#("  /// Callback for walltimer in order to publish the message.
+  /**
+   * Callback for walltimer. This function gets invoked by the timer
+   * and executes the publishing.
+   * For this demo, we ask the node for its current state. If the
+   * lifecycle publisher is not activate, we still invoke publish, but
+   * the communication is blocked so that no messages is actually transferred.
+   */
+ " 0 2 (c-in-sws t c-is-sws t fontified t) 2 3 (c-in-sws t c-is-sws t fontified t face font-lock-comment-delimiter-face) 3 6 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 6 62 (c-in-sws t fontified t face font-lock-comment-face) 62 64 (c-in-sws t fontified t) 64 67 (c-in-sws t fontified t face font-lock-doc-face) 67 369 (c-in-sws t fontified t face font-lock-doc-face) 369 387 (c-in-sws t face font-lock-doc-face fontified t) 387 391 (c-in-sws t fontified t face font-lock-doc-face) 391 392 (fontified t face font-lock-doc-face c-in-sws t) 392 393 (fontified t c-is-sws t c-in-sws t) 393 394 (c-is-sws t c-in-sws t fontified t)) . 1271) (undo-tree-id169 . -393) (undo-tree-id170 . -393) (undo-tree-id171 . -393) (undo-tree-id172 . -393) (undo-tree-id173 . -393) (undo-tree-id174 . -393) 1664) nil (26225 59536 864284 0) 0 nil])
+([nil nil ((1271 . 1273) (#(" " 0 1 (c-is-sws t c-in-sws t fontified t)) . 1271) (undo-tree-id168 . 1)) nil (26225 59536 864272 32000) 0 nil])
+([nil nil ((#("  // We independently from the current state call publish on the lifecycle
+    // publisher.
+    // Only if the publisher is in an active state, the message transfer is
+    // enabled and the message actually published.
+   " 0 2 (c-in-sws t c-is-sws t fontified t) 2 3 (c-in-sws t c-is-sws t fontified t face font-lock-comment-delimiter-face) 3 5 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 5 37 (c-in-sws t fontified t face font-lock-comment-face) 37 75 (c-in-sws t fontified t face font-lock-comment-face) 75 79 (c-in-sws t fontified t) 79 82 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 82 93 (c-in-sws t fontified t face font-lock-comment-face) 93 97 (c-in-sws t fontified t) 97 100 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 100 169 (c-in-sws t fontified t face font-lock-comment-face) 169 173 (c-in-sws t fontified t) 173 176 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 176 220 (c-in-sws t fontified t face font-lock-comment-face) 220 223 (c-is-sws t c-in-sws t fontified t)) . 1782) (undo-tree-id162 . -222) (undo-tree-id163 . -222) (undo-tree-id164 . -222) (undo-tree-id165 . -222) (undo-tree-id166 . -222) (undo-tree-id167 . -222) 2004) nil (26225 59536 864267 420000) 0 nil])
+([nil nil ((1780 . 1784) (#("   " 0 1 (c-in-sws t c-is-sws t fontified t) 1 2 (fontified t) 2 3 (c-is-sws t c-in-sws t fontified t)) . 1780) (undo-tree-id153 . -2) (undo-tree-id154 . -2) (undo-tree-id155 . -2) (undo-tree-id156 . -2) (undo-tree-id157 . -2) (undo-tree-id158 . -2) (undo-tree-id159 . 1) (undo-tree-id160 . -2) (undo-tree-id161 . -2) 1782) nil (26225 59536 864253 621000) 0 nil])
+([nil nil ((#(" /// Transition callback for state configuring
+  /**
+   * on_configure callback is being called when the lifecycle node
+   * enters the \"configuring\" state.
+   * Depending on the return value of this function, the state machine
+   * either invokes a transition to the \"inactive\" state or stays
+   * in \"unconfigured\".
+   * TRANSITION_CALLBACK_SUCCESS transitions to \"inactive\"
+   * TRANSITION_CALLBACK_FAILURE transitions to \"unconfigured\"
+   * TRANSITION_CALLBACK_ERROR or any uncaught exceptions to \"errorprocessing\"
+   */
+  " 0 1 (c-in-sws t c-is-sws t fontified t) 1 2 (c-in-sws t c-is-sws t fontified t face font-lock-comment-delimiter-face) 2 5 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 5 47 (c-in-sws t fontified t face font-lock-comment-face) 47 49 (c-in-sws t fontified t) 49 52 (c-in-sws t fontified t face font-lock-doc-face) 52 230 (c-in-sws t fontified t face font-lock-doc-face) 230 236 (c-in-sws t fontified t face font-lock-doc-face) 236 294 (c-in-sws t fontified t face font-lock-doc-face) 294 494 (c-in-sws t fontified t face font-lock-doc-face) 494 519 (c-in-sws t face font-lock-doc-face fontified t) 519 523 (c-in-sws t fontified t face font-lock-doc-face) 523 524 (fontified t face font-lock-doc-face c-in-sws t) 524 525 (c-is-sws t c-in-sws t fontified t) 525 527 (c-is-sws t c-in-sws t fontified t)) . 1821) (undo-tree-id147 . -526) (undo-tree-id148 . -526) (undo-tree-id149 . -121) (undo-tree-id150 . -526) (undo-tree-id151 . -526) (undo-tree-id152 . -526) 2347) nil (26225 59536 864237 14000) 0 nil])
+([nil nil ((1820 . 1822) (#(" " 0 1 (c-in-sws t c-is-sws t fontified t)) . -1820) (undo-tree-id139 . -1) (undo-tree-id140 . -1) (undo-tree-id141 . -1) (undo-tree-id142 . -1) (undo-tree-id143 . -1) (undo-tree-id144 . -1) (undo-tree-id145 . -1) (undo-tree-id146 . -1) 1821) nil (26225 59536 864225 150000) 0 nil])
+([nil nil ((#("  // This callback is supposed to be used for initialization and
+    // configuring purposes.
+    // We thus initialize and configure our publishers and timers.
+    // The lifecycle node API does return lifecycle components such as
+    // lifecycle publishers. These entities obey the lifecycle and
+    // can comply to the current state of the node.
+    // As of the beta version, there is only a lifecycle publisher
+    // available.
+   " 0 2 (c-in-sws t c-is-sws t fontified t) 2 3 (c-in-sws t c-is-sws t fontified t face font-lock-comment-delimiter-face) 3 5 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 5 65 (c-in-sws t fontified t face font-lock-comment-face) 65 69 (c-in-sws t fontified t) 69 72 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 72 94 (c-in-sws t fontified t face font-lock-comment-face) 94 98 (c-in-sws t fontified t) 98 101 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 101 139 (c-in-sws t fontified t face font-lock-comment-face) 139 161 (c-in-sws t fontified t face font-lock-comment-face) 161 165 (c-in-sws t fontified t) 165 168 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 168 232 (c-in-sws t fontified t face font-lock-comment-face) 232 236 (c-in-sws t fontified t) 236 239 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 239 299 (c-in-sws t fontified t face font-lock-comment-face) 299 303 (c-in-sws t fontified t) 303 306 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 306 351 (c-in-sws t fontified t face font-lock-comment-face) 351 355 (c-in-sws t fontified t) 355 358 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 358 364 (c-in-sws t fontified t face font-lock-comment-face) 364 417 (c-in-sws t fontified t face font-lock-comment-face) 417 418 (c-in-sws t fontified t face font-lock-comment-face) 418 419 (c-is-sws t c-in-sws t fontified t) 419 422 (c-is-sws t c-in-sws t fontified t) 422 423 (c-is-sws t c-in-sws t fontified t face font-lock-comment-delimiter-face) 423 425 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 425 436 (c-in-sws t fontified t face font-lock-comment-face) 436 439 (c-in-sws t fontified t)) . 1950) (undo-tree-id133 . -438) (undo-tree-id134 . -438) (undo-tree-id135 . -234) (undo-tree-id136 . -438) (undo-tree-id137 . -438) (undo-tree-id138 . -438) 2388) nil (26225 59536 864191 318000) 0 nil])
+([nil nil ((1948 . 1952) (#("   " 0 1 (c-in-sws t c-is-sws t fontified t) 1 2 (fontified t) 2 3 (c-in-sws t fontified t)) . 1948) (undo-tree-id124 . -2) (undo-tree-id125 . -2) (undo-tree-id126 . -2) (undo-tree-id127 . -2) (undo-tree-id128 . -2) (undo-tree-id129 . -2) (undo-tree-id130 . 1) (undo-tree-id131 . -2) (undo-tree-id132 . -2) 1950) nil (26225 59536 864179 251000) 0 nil])
+([nil nil ((#("
+    // We return a success and hence invoke the transition to the next
+    // step: \"inactive\".
+    // If we returned TRANSITION_CALLBACK_FAILURE instead, the state machine
+    // would stay in the \"unconfigured\" state.
+    // In case of TRANSITION_CALLBACK_ERROR or any thrown exception within
+    // this callback, the state machine transitions to state \"errorprocessing\".
+ " 0 1 (fontified t) 1 5 (c-in-sws t c-is-sws t fontified t) 5 6 (c-in-sws t c-is-sws t fontified t face font-lock-comment-delimiter-face) 6 8 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 8 72 (c-in-sws t fontified t face font-lock-comment-face) 72 76 (c-in-sws t fontified t) 76 79 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 79 97 (c-in-sws t fontified t face font-lock-comment-face) 97 101 (c-in-sws t fontified t) 101 104 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 104 174 (c-in-sws t fontified t face font-lock-comment-face) 174 178 (c-in-sws t fontified t) 178 181 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 181 221 (c-in-sws t fontified t face font-lock-comment-face) 221 225 (c-in-sws t fontified t) 225 228 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 228 245 (c-in-sws t fontified t face font-lock-comment-face) 245 296 (c-in-sws t fontified t face font-lock-comment-face) 296 300 (c-in-sws t fontified t) 300 303 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 303 346 (c-in-sws t fontified t face font-lock-comment-face) 346 375 (c-in-sws t face font-lock-comment-face fontified t) 375 376 (face font-lock-comment-face fontified t c-in-sws t) 376 377 (c-is-sws t c-in-sws t fontified t)) . 2185) (undo-tree-id118 . -376) (undo-tree-id119 . -376) (undo-tree-id120 . -376) (undo-tree-id121 . -376) (undo-tree-id122 . -376) (undo-tree-id123 . -376) 2561) nil (26225 59536 864162 694000) 0 nil])
+([nil nil ((2185 . 2189) (#("   " 0 3 (c-is-sws t c-in-sws t fontified t)) . 2185) (undo-tree-id117 . 3)) nil (26225 59536 864149 498000) 0 nil])
+([nil nil ((#("
+ " 0 2 (fontified t)) . 2918)) nil (26225 59536 864145 681000) 0 nil])
+([nil nil ((#("/// Transition callback for state activating
+  /**
+   * on_activate callback is being called when the lifecycle node
+   * enters the \"activating\" state.
+   * Depending on the return value of this function, the state machine
+   * either invokes a transition to the \"active\" state or stays
+   * in \"inactive\".
+   * TRANSITION_CALLBACK_SUCCESS transitions to \"active\"
+   * TRANSITION_CALLBACK_FAILURE transitions to \"inactive\"
+   * TRANSITION_CALLBACK_ERROR or any uncaught exceptions to \"errorprocessing\"
+   */
+ " 0 1 (c-in-sws t c-is-sws t fontified t face font-lock-comment-delimiter-face) 1 4 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 4 45 (c-in-sws t fontified t face font-lock-comment-face) 45 47 (c-in-sws t fontified t) 47 50 (c-in-sws t fontified t face font-lock-doc-face) 50 398 (c-in-sws t fontified t face font-lock-doc-face) 398 424 (c-in-sws t fontified t face font-lock-doc-face) 424 493 (c-in-sws t fontified t face font-lock-doc-face) 493 503 (c-in-sws t face font-lock-doc-face fontified t) 503 507 (c-in-sws t fontified t face font-lock-doc-face) 507 508 (fontified t face font-lock-doc-face c-in-sws t) 508 509 (c-is-sws t c-in-sws t fontified t) 509 510 (c-is-sws t c-in-sws t fontified t)) . 2287) (undo-tree-id111 . -509) (undo-tree-id112 . -509) (undo-tree-id113 . -509) (undo-tree-id114 . -509) (undo-tree-id115 . -509) (undo-tree-id116 . -509) 2796) nil (26225 59536 864142 657000) 0 nil])
+([nil nil ((2285 . 2287) (#("   " 0 1 (c-in-sws t c-is-sws t fontified t) 1 2 (fontified t) 2 3 (c-is-sws t c-in-sws t fontified t)) . 2285) (undo-tree-id102 . -2) (undo-tree-id103 . -2) (undo-tree-id104 . -2) (undo-tree-id105 . -2) (undo-tree-id106 . -2) (undo-tree-id107 . -2) (undo-tree-id108 . 1) (undo-tree-id109 . -2) (undo-tree-id110 . -2) 2287) nil (26225 59536 864129 967000) 0 nil])
+([nil nil ((#("  // We explicitly activate the lifecycle publisher.
+    // Starting from this point, all messages are no longer
+    // ignored but sent into the network.
+   " 0 2 (c-in-sws t c-is-sws t fontified t) 2 3 (c-in-sws t c-is-sws t fontified t face font-lock-comment-delimiter-face) 3 5 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 5 53 (c-in-sws t fontified t face font-lock-comment-face) 53 57 (c-in-sws t fontified t) 57 60 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 60 113 (c-in-sws t fontified t face font-lock-comment-face) 113 117 (c-in-sws t fontified t) 117 120 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 120 155 (c-in-sws t fontified t face font-lock-comment-face) 155 158 (c-is-sws t c-in-sws t fontified t)) . 2412) (undo-tree-id96 . -157) (undo-tree-id97 . -157) (undo-tree-id98 . -157) (undo-tree-id99 . -157) (undo-tree-id100 . -157) (undo-tree-id101 . -157) 2569) nil (26225 59536 864112 828000) 0 nil])
+([nil nil ((2410 . 2414) (#("   " 0 1 (c-in-sws t c-is-sws t fontified t) 1 2 (fontified t) 2 3 (c-is-sws t c-in-sws t fontified t)) . 2410) (undo-tree-id87 . -2) (undo-tree-id88 . -2) (undo-tree-id89 . -2) (undo-tree-id90 . -2) (undo-tree-id91 . -2) (undo-tree-id92 . -2) (undo-tree-id93 . 1) (undo-tree-id94 . -2) (undo-tree-id95 . -2) 2412) nil (26225 59536 864012 164000) 0 nil])
+([nil nil ((#("
+    // Let's sleep for 2 seconds.
+    // We emulate we are doing important
+    // work in the activating phase.
+ " 0 1 (fontified t) 1 5 (c-in-sws t c-is-sws t fontified t) 5 6 (c-in-sws t c-is-sws t fontified t face font-lock-comment-delimiter-face) 6 8 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 8 11 (c-in-sws t fontified t face font-lock-comment-face) 11 12 (c-in-sws t fontified t face font-lock-comment-face) 12 35 (c-in-sws t fontified t face font-lock-comment-face) 35 37 (c-in-sws t fontified t) 37 38 (c-in-sws t fontified t) 38 39 (c-in-sws t fontified t) 39 42 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 42 76 (c-in-sws t fontified t face font-lock-comment-face) 76 80 (c-in-sws t fontified t) 80 83 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 83 113 (c-in-sws t fontified t face font-lock-comment-face) 113 114 (c-is-sws t c-in-sws t fontified t)) . 2504) (undo-tree-id81 . -113) (undo-tree-id82 . -113) (undo-tree-id83 . -113) (undo-tree-id84 . -113) (undo-tree-id85 . -113) (undo-tree-id86 . -113) 2617) nil (26225 59536 863995 325000) 0 nil])
+([nil nil ((#("
+    // We return a success and hence invoke the transition to the next
+    // step: \"active\".
+    // If we returned TRANSITION_CALLBACK_FAILURE instead, the state machine
+    // would stay in the \"inactive\" state.
+    // In case of TRANSITION_CALLBACK_ERROR or any thrown exception within
+    // this callback, the state machine transitions to state \"errorprocessing\".
+ " 0 1 (fontified t) 1 5 (c-in-sws t c-is-sws t fontified t) 5 6 (c-in-sws t c-is-sws t fontified t face font-lock-comment-delimiter-face) 6 8 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 8 50 (c-in-sws t fontified t face font-lock-comment-face) 50 71 (c-in-sws t fontified t face font-lock-comment-face) 71 72 (c-in-sws t fontified t face font-lock-comment-face) 72 73 (c-in-sws t fontified t) 73 76 (c-in-sws t fontified t) 76 77 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 77 79 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 79 95 (c-in-sws t fontified t face font-lock-comment-face) 95 99 (c-in-sws t fontified t) 99 100 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 100 102 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 102 171 (c-in-sws t fontified t face font-lock-comment-face) 171 172 (c-in-sws t fontified t face font-lock-comment-face) 172 173 (c-in-sws t fontified t) 173 176 (c-in-sws t fontified t) 176 177 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 177 179 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 179 215 (c-in-sws t fontified t face font-lock-comment-face) 215 219 (c-in-sws t fontified t) 219 222 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 222 281 (c-in-sws t fontified t face font-lock-comment-face) 281 289 (c-in-sws t fontified t face font-lock-comment-face) 289 290 (c-in-sws t fontified t face font-lock-comment-face) 290 291 (c-is-sws t c-in-sws t fontified t) 291 294 (c-in-sws t c-is-sws t fontified t) 294 295 (c-is-sws t c-in-sws t fontified t face font-lock-comment-delimiter-face) 295 297 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 297 370 (c-in-sws t fontified t face font-lock-comment-face) 370 371 (c-in-sws t fontified t)) . 2540) (undo-tree-id75 . -370) (undo-tree-id76 . -370) (undo-tree-id77 . -370) (undo-tree-id78 . -370) (undo-tree-id79 . -370) (undo-tree-id80 . -370) 2910) nil (26225 59536 863983 380000) 0 nil])
+([nil nil ((2435 . 2439)) nil (26225 59536 863969 519000) 0 nil])
+([nil nil ((2508 . 2512) (#("   " 0 2 (c-is-sws t c-in-sws t fontified t) 2 3 (c-is-sws t fontified t c-in-sws t)) . 2508) 2512) nil (26225 59536 863967 298000) 0 nil])
+([nil nil ((2545 . 2549) (#("   " 0 3 (c-in-sws t fontified t)) . 2545) (undo-tree-id74 . 3) 2550) nil (26225 59536 863963 704000) 0 nil])
+([nil nil ((#("/// Transition callback for state deactivating
+  /**
+   * on_deactivate callback is being called when the lifecycle node
+   * enters the \"deactivating\" state.
+   * Depending on the return value of this function, the state machine
+   * either invokes a transition to the \"inactive\" state or stays
+   * in \"active\".
+   * TRANSITION_CALLBACK_SUCCESS transitions to \"inactive\"
+   * TRANSITION_CALLBACK_FAILURE transitions to \"active\"
+   * TRANSITION_CALLBACK_ERROR or any uncaught exceptions to \"errorprocessing\"
+   */
+ " 0 1 (c-in-sws t c-is-sws t fontified t face font-lock-comment-delimiter-face) 1 4 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 4 28 (c-in-sws t fontified t face font-lock-comment-face) 28 46 (c-in-sws t fontified t face font-lock-comment-face) 46 47 (c-in-sws t fontified t face font-lock-comment-face) 47 48 (c-in-sws t fontified t) 48 49 (c-in-sws t fontified t) 49 50 (c-in-sws t fontified t face font-lock-doc-face) 50 52 (c-in-sws t fontified t face font-lock-doc-face) 52 100 (c-in-sws t fontified t face font-lock-doc-face) 100 121 (c-in-sws t fontified t face font-lock-doc-face) 121 200 (c-in-sws t fontified t face font-lock-doc-face) 200 230 (c-in-sws t fontified t face font-lock-doc-face) 230 293 (c-in-sws t fontified t face font-lock-doc-face) 293 296 (c-in-sws t face font-lock-doc-face fontified t) 296 318 (c-in-sws t fontified t face font-lock-doc-face) 318 373 (c-in-sws t fontified t face font-lock-doc-face) 373 509 (c-in-sws t fontified t face font-lock-doc-face) 509 513 (c-in-sws t fontified t face font-lock-doc-face) 513 514 (fontified t face font-lock-doc-face c-in-sws t) 514 515 (fontified t c-is-sws t c-in-sws t) 515 516 (c-in-sws t fontified t c-is-sws t)) . 2647) (undo-tree-id69 . -515) (undo-tree-id70 . -515) (undo-tree-id71 . -515) (undo-tree-id72 . -515) (undo-tree-id73 . -515) 3162) nil (26225 59536 863959 20000) 0 nil])
+([nil nil ((2645 . 2647) (#("   " 0 1 (c-in-sws t c-is-sws t fontified t) 1 2 (fontified t) 2 3 (c-in-sws t fontified t c-is-sws t)) . 2645) (undo-tree-id60 . -2) (undo-tree-id61 . -2) (undo-tree-id62 . -2) (undo-tree-id63 . -2) (undo-tree-id64 . -2) (undo-tree-id65 . -2) (undo-tree-id66 . 1) (undo-tree-id67 . -2) (undo-tree-id68 . -2) 2647) nil (26225 59536 863947 878000) 0 nil])
+([nil nil ((#("  // We explicitly deactivate the lifecycle publisher.
+    // Starting from this point, all messages are no longer
+    // sent into the network.
+   " 0 2 (fontified t c-in-sws t c-is-sws t) 2 3 (fontified t face font-lock-comment-delimiter-face c-in-sws t c-is-sws t) 3 5 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 5 55 (fontified t face font-lock-comment-face c-in-sws t) 55 59 (fontified t c-in-sws t) 59 62 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 62 115 (fontified t face font-lock-comment-face c-in-sws t) 115 119 (fontified t c-in-sws t) 119 122 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 122 144 (fontified t face font-lock-comment-face c-in-sws t) 144 145 (fontified t face font-lock-comment-face c-in-sws t) 145 148 (fontified t c-is-sws t c-in-sws t)) . 2776) (undo-tree-id55 . -147) (undo-tree-id56 . -147) (undo-tree-id57 . -147) (undo-tree-id58 . -147) (undo-tree-id59 . -147) 2923) nil (26225 59536 863928 728000) 0 nil])
+([nil nil ((2774 . 2778) (#("   " 0 1 (fontified t c-in-sws t c-is-sws t) 1 2 (fontified t) 2 3 (fontified t c-is-sws t c-in-sws t)) . 2774) (undo-tree-id46 . -2) (undo-tree-id47 . -2) (undo-tree-id48 . -2) (undo-tree-id49 . -2) (undo-tree-id50 . -2) (undo-tree-id51 . -2) (undo-tree-id52 . 1) (undo-tree-id53 . -2) (undo-tree-id54 . -2) 2776) nil (26225 59536 863913 830000) 0 nil])
+([nil nil ((#("// We return a success and hence invoke the transition to the next
+    // step: \"inactive\".
+    // If we returned TRANSITION_CALLBACK_FAILURE instead, the state machine
+    // would stay in the \"active\" state.
+    // In case of TRANSITION_CALLBACK_ERROR or any thrown exception within
+    // this callback, the state machine transitions to state \"errorprocessing\".
+    " 0 1 (c-in-sws t c-is-sws t fontified t face font-lock-comment-delimiter-face) 1 3 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 3 67 (c-in-sws t fontified t face font-lock-comment-face) 67 71 (c-in-sws t fontified t) 71 74 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 74 92 (c-in-sws t fontified t face font-lock-comment-face) 92 96 (c-in-sws t fontified t) 96 99 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 99 169 (c-in-sws t fontified t face font-lock-comment-face) 169 173 (c-in-sws t fontified t) 173 176 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 176 210 (c-in-sws t fontified t face font-lock-comment-face) 210 214 (c-in-sws t fontified t) 214 217 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 217 285 (c-in-sws t fontified t face font-lock-comment-face) 285 289 (c-in-sws t fontified t) 289 292 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 292 344 (c-in-sws t fontified t face font-lock-comment-face) 344 364 (c-in-sws t face font-lock-comment-face fontified t) 364 365 (face font-lock-comment-face fontified t c-in-sws t) 365 366 (c-is-sws t c-in-sws t fontified t) 366 369 (c-is-sws t c-in-sws t fontified t)) . 2877) (undo-tree-id40 . -368) (undo-tree-id41 . -368) (undo-tree-id42 . -368) (undo-tree-id43 . -368) (undo-tree-id44 . -368) (undo-tree-id45 . -368) 3245) nil (26225 59536 863896 950000) 0 nil])
+([nil nil ((#("
+  /// Transition callback for state cleaningup
+  /**
+   * on_cleanup callback is being called when the lifecycle node
+   * enters the \"cleaningup\" state.
+   * Depending on the return value of this function, the state machine
+   * either invokes a transition to the \"unconfigured\" state or stays
+   * in \"inactive\".
+   * TRANSITION_CALLBACK_SUCCESS transitions to \"unconfigured\"
+   * TRANSITION_CALLBACK_FAILURE transitions to \"inactive\"
+   * TRANSITION_CALLBACK_ERROR or any uncaught exceptions to \"errorprocessing\"
+   */
+ " 0 1 (fontified t) 1 3 (fontified t c-in-sws t c-is-sws t) 3 4 (fontified t face font-lock-comment-delimiter-face c-in-sws t c-is-sws t) 4 7 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 7 48 (fontified t face font-lock-comment-face c-in-sws t) 48 50 (fontified t c-in-sws t) 50 53 (fontified t face font-lock-doc-face c-in-sws t) 53 401 (fontified t face font-lock-doc-face c-in-sws t) 401 438 (face font-lock-doc-face fontified t c-in-sws t) 438 495 (fontified t face font-lock-doc-face c-in-sws t) 495 517 (fontified t face font-lock-doc-face c-in-sws t) 517 521 (fontified t face font-lock-doc-face c-in-sws t) 521 522 (fontified t face font-lock-doc-face c-in-sws t) 522 523 (fontified t c-is-sws t c-in-sws t) 523 524 (fontified t c-is-sws t c-in-sws t)) . 2972) (undo-tree-id35 . -523) (undo-tree-id36 . -523) (undo-tree-id37 . -523) (undo-tree-id38 . -523) (undo-tree-id39 . -523) 3495) nil (26225 59536 863885 563000) 0 nil])
+([nil nil ((2972 . 2974) (#(" " 0 1 (fontified t c-is-sws t c-in-sws t)) . 2972) (undo-tree-id34 . 1)) nil (26225 59536 863875 160000) 0 nil])
+([nil nil ((#("  // In our cleanup phase, we release the shared pointers to the
+    // timer and publisher. These entities are no longer available
+    // and our node is \"clean\".
+   " 0 2 (fontified t c-in-sws t c-is-sws t) 2 3 (fontified t face font-lock-comment-delimiter-face c-in-sws t c-is-sws t) 3 5 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 5 65 (fontified t face font-lock-comment-face c-in-sws t) 65 69 (fontified t c-in-sws t) 69 72 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 72 132 (fontified t face font-lock-comment-face c-in-sws t) 132 136 (fontified t c-in-sws t) 136 139 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 139 164 (fontified t face font-lock-comment-face c-in-sws t) 164 167 (fontified t c-is-sws t c-in-sws t)) . 3100) (undo-tree-id29 . -166) (undo-tree-id30 . -166) (undo-tree-id31 . -166) (undo-tree-id32 . -166) (undo-tree-id33 . -166) 3266) nil (26225 59536 863869 621000) 0 nil])
+([nil nil ((3098 . 3102) (#("   " 0 1 (fontified t c-in-sws t c-is-sws t) 1 2 (fontified t) 2 3 (fontified t c-is-sws t c-in-sws t)) . 3098) (undo-tree-id20 . -2) (undo-tree-id21 . -2) (undo-tree-id22 . -2) (undo-tree-id23 . -2) (undo-tree-id24 . -2) (undo-tree-id25 . -2) (undo-tree-id26 . 1) (undo-tree-id27 . -2) (undo-tree-id28 . -2) 3100) nil (26225 59536 863859 27000) 0 nil])
+([nil nil ((#("
+    // We return a success and hence invoke the transition to the next
+    // step: \"unconfigured\".
+    // If we returned TRANSITION_CALLBACK_FAILURE instead, the state machine
+    // would stay in the \"inactive\" state.
+    // In case of TRANSITION_CALLBACK_ERROR or any thrown exception within
+    // this callback, the state machine transitions to state \"errorprocessing\".
+ " 0 1 (fontified t) 1 5 (fontified t c-in-sws t c-is-sws t) 5 6 (fontified t face font-lock-comment-delimiter-face c-in-sws t c-is-sws t) 6 8 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 8 19 (fontified t face font-lock-comment-face c-in-sws t) 19 71 (face font-lock-comment-face fontified t c-in-sws t) 71 72 (face font-lock-comment-face fontified t c-in-sws t) 72 73 (fontified t c-in-sws t) 73 76 (fontified t c-in-sws t) 76 77 (fontified t c-in-sws t face font-lock-comment-delimiter-face) 77 79 (fontified t c-in-sws t face font-lock-comment-delimiter-face) 79 101 (fontified t c-in-sws t face font-lock-comment-face) 101 105 (fontified t c-in-sws t) 105 106 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 106 108 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 108 177 (c-in-sws t face font-lock-comment-face fontified t) 177 178 (face font-lock-comment-face fontified t c-in-sws t) 178 179 (fontified t c-is-sws t c-in-sws t) 179 182 (c-in-sws t fontified t c-is-sws t) 182 183 (fontified t c-is-sws t c-in-sws t face font-lock-comment-delimiter-face) 183 185 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 185 221 (c-in-sws t fontified t face font-lock-comment-face) 221 225 (c-in-sws t fontified t) 225 228 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 228 296 (c-in-sws t fontified t face font-lock-comment-face) 296 300 (c-in-sws t fontified t) 300 303 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 303 376 (c-in-sws t fontified t face font-lock-comment-face) 376 377 (c-in-sws t fontified t)) . 3202) (undo-tree-id15 . -376) (undo-tree-id16 . -376) (undo-tree-id17 . -376) (undo-tree-id18 . -376) (undo-tree-id19 . -376) 3578) nil (26225 59536 863842 661000) 0 nil])
+([nil nil ((3202 . 3206) (#("   " 0 3 (c-in-sws t fontified t)) . 3202) (undo-tree-id14 . 3)) nil (26225 59536 863832 739000) 0 nil])
+([nil nil ((#("
+  /// Transition callback for state shutting down
+  /**
+   * on_shutdown callback is being called when the lifecycle node
+   * enters the \"shuttingdown\" state.
+   * Depending on the return value of this function, the state machine
+   * either invokes a transition to the \"finalized\" state or stays
+   * in its current state.
+   * TRANSITION_CALLBACK_SUCCESS transitions to \"finalized\"
+   * TRANSITION_CALLBACK_FAILURE transitions to current state
+   * TRANSITION_CALLBACK_ERROR or any uncaught exceptions to \"errorprocessing\"
+   */
+ " 0 1 (fontified t) 1 3 (fontified t c-in-sws t c-is-sws t) 3 4 (c-is-sws t c-in-sws t fontified t face font-lock-comment-delimiter-face) 4 7 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 7 51 (c-in-sws t fontified t face font-lock-comment-face) 51 53 (c-in-sws t fontified t) 53 56 (c-in-sws t fontified t face font-lock-doc-face) 56 167 (c-in-sws t fontified t face font-lock-doc-face) 167 203 (c-in-sws t face font-lock-doc-face fontified t) 203 232 (c-in-sws t face font-lock-doc-face fontified t) 232 402 (c-in-sws t fontified t face font-lock-doc-face) 402 448 (c-in-sws t fontified t face font-lock-doc-face) 448 527 (c-in-sws t fontified t face font-lock-doc-face) 527 531 (c-in-sws t fontified t face font-lock-doc-face) 531 532 (fontified t face font-lock-doc-face c-in-sws t) 532 533 (fontified t c-is-sws t c-in-sws t) 533 534 (c-in-sws t fontified t c-is-sws t)) . 3301) (undo-tree-id8 . -533) (undo-tree-id9 . -533) (undo-tree-id10 . -527) (undo-tree-id11 . -533) (undo-tree-id12 . -533) (undo-tree-id13 . -533) 3834) nil (26225 59536 863827 983000) 0 nil])
+([nil nil ((3301 . 3303) (#(" " 0 1 (c-in-sws t fontified t c-is-sws t)) . 3301) (undo-tree-id7 . 1)) nil (26225 59536 863816 356000) 0 nil])
+([nil nil ((#("  // In our shutdown phase, we release the shared pointers to the
+    // timer and publisher. These entities are no longer available
+    // and our node is \"clean\".
+   " 0 2 (fontified t c-in-sws t c-is-sws t) 2 3 (fontified t face font-lock-comment-delimiter-face c-in-sws t c-is-sws t) 3 5 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 5 64 (fontified t face font-lock-comment-face c-in-sws t) 64 65 (face font-lock-comment-face fontified t c-in-sws t) 65 66 (face font-lock-comment-face fontified t c-in-sws t) 66 67 (fontified t c-is-sws t c-in-sws t) 67 70 (fontified t c-is-sws t c-in-sws t) 70 71 (fontified t c-is-sws t c-in-sws t face font-lock-comment-delimiter-face) 71 73 (fontified t c-in-sws t face font-lock-comment-delimiter-face) 73 133 (fontified t c-in-sws t face font-lock-comment-face) 133 137 (fontified t c-in-sws t) 137 140 (fontified t c-in-sws t face font-lock-comment-delimiter-face) 140 165 (fontified t c-in-sws t face font-lock-comment-face) 165 168 (fontified t c-in-sws t)) . 3436) (undo-tree-id2 . -167) (undo-tree-id3 . -167) (undo-tree-id4 . -167) (undo-tree-id5 . -167) (undo-tree-id6 . -167) 3603) nil (26225 59536 863810 22000) 0 nil])
+([nil nil ((3453 . 3456) (#("    " 0 4 (fontified t)) . 3453) (undo-tree-id0 . -2) (undo-tree-id1 . -2) 3455) nil (26225 59536 863791 681000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 12284 . 12285) (nil fontified nil 12164 . 12285) (nil fontified nil 12163 . 12164) (nil category c->-as-paren-syntax 12163 . 12164) (nil fontified nil 12148 . 12163) (nil fontified nil 12147 . 12148) (nil category c-<-as-paren-syntax 12147 . 12148) (nil fontified nil 12116 . 12147) (nil fontified nil 12115 . 12116) (nil category c->-as-paren-syntax 12115 . 12116) (nil fontified nil 12100 . 12115) (nil fontified nil 12099 . 12100) (nil category c-<-as-paren-syntax 12099 . 12100) (nil fontified nil 11613 . 12099) (nil fontified nil 11612 . 11613) (nil category c->-as-paren-syntax 11612 . 11613) (nil fontified nil 11595 . 11612) (nil fontified nil 11594 . 11595) (nil category c-<-as-paren-syntax 11594 . 11595) (nil fontified nil 11293 . 11594) (nil fontified nil 11292 . 11293) (nil category c->-as-paren-syntax 11292 . 11293) (nil fontified nil 11291 . 11292) (nil category c->-as-paren-syntax 11291 . 11292) (nil fontified nil 11270 . 11291) (nil fontified nil 11269 . 11270) (nil category c-<-as-paren-syntax 11269 . 11270) (nil fontified nil 11233 . 11269) (nil fontified nil 11232 . 11233) (nil category c-<-as-paren-syntax 11232 . 11233) (nil fontified nil 6079 . 11232) (nil fontified nil 6078 . 6079) (nil fontified nil 4521 . 6078) (nil fontified nil 4520 . 4521) (nil category c->-as-paren-syntax 4520 . 4521) (nil fontified nil 4499 . 4520) (nil fontified nil 4498 . 4499) (nil category c-<-as-paren-syntax 4498 . 4499) (nil fontified nil 2708 . 4498) (nil fontified nil 2707 . 2708) (nil category c->-as-paren-syntax 2707 . 2708) (nil fontified nil 2686 . 2707) (nil fontified nil 2685 . 2686) (nil category c-<-as-paren-syntax 2685 . 2686) (nil fontified nil 1 . 2685) (1 . 12285) (#("// Copyright 2016 Open Source Robotics Foundation, Inc.
+
+// Licensed under the Apache License, Version 2.0 (the \"License\");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+
+//     http://www.apache.org/licenses/LICENSE-2.0
+
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an \"AS IS\" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+#include <chrono>
+#include <iostream>
+#include <memory>
+#include <rclcpp/node_options.hpp>
+#include <string>
+#include <thread>
+#include <utility>
+
+#include \"lifecycle_msgs/msg/transition.hpp\"
+
+#include \"rclcpp/rclcpp.hpp\"
+#include \"rclcpp/publisher.hpp\"
+
+#include \"rclcpp_lifecycle/lifecycle_node.hpp\"
+#include \"rclcpp_lifecycle/lifecycle_publisher.hpp\"
+
+#include \"rcutils/logging_macros.h\"
+
+#include \"std_msgs/msg/string.hpp\"
+
+using namespace std::chrono_literals;
+
+class LifecycleTalker : public rclcpp_lifecycle::LifecycleNode
+{
+public:
+  explicit LifecycleTalker(rclcpp::NodeOptions & options)
+  : rclcpp_lifecycle::LifecycleNode(\"NodeLife\", options)
+  {}
+
+  void
+  publish()
+  {
+    static size_t count = 0;
+    auto msg = std::make_unique<std_msgs::msg::String>();
+    msg->data = \"Lifecycle HelloWorld #\" + std::to_string(++count);
+
+    // Print the current state for demo purposes
+    if (!pub_->is_activated()) {
+      RCLCPP_INFO(
+        get_logger(), \"Lifecycle publisher is currently inactive. Messages are not published.\");
+    } else {
+      RCLCPP_INFO(
+        get_logger(), \"Lifecycle publisher is active. Publishing: [%s]\", msg->data.c_str());
+    }
+
+    pub_->publish(std::move(msg));
+  }
+
+  rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn
+  on_configure(const rclcpp_lifecycle::State &)
+  {
+    pub_ = this->create_publisher<std_msgs::msg::String>(\"lifecycle_chatter\", 10);
+    timer_ = this->create_wall_timer(
+      1s, std::bind(&LifecycleTalker::publish, this));
+
+    RCLCPP_INFO(get_logger(), \"on_configure() is called.\");
+    return rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn::SUCCESS;
+  }
+
+  rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn
+  on_activate(const rclcpp_lifecycle::State &) {
+    pub_->on_activate();
+    
+    RCUTILS_LOG_INFO_NAMED(get_name(), \"on_activate() is called.\");
+    std::this_thread::sleep_for(2s);
+    return rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn::SUCCESS;
+  }
+
+  rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn
+  on_deactivate(const rclcpp_lifecycle::State &)
+  {
+    pub_->on_deactivate();
+
+    RCUTILS_LOG_INFO_NAMED(get_name(), \"on_deactivate() is called.\");
+
+    return rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn::SUCCESS;
+  }
+  rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn
+  on_cleanup(const rclcpp_lifecycle::State &)
+  {
+    timer_.reset();
+    pub_.reset();
+
+    RCUTILS_LOG_INFO_NAMED(get_name(), \"on cleanup is called.\");
+    return rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn::SUCCESS;
+  }
+  rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn
+  on_shutdown(const rclcpp_lifecycle::State & state)
+  {
+   timer_.reset();
+   pub_.reset();
+
+    RCUTILS_LOG_INFO_NAMED(
+      get_name(),
+      \"on shutdown is called from state %s.\",
+      state.label().c_str());
+   return rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn::SUCCESS;
+  }
+
+private:
+  std::shared_ptr<rclcpp_lifecycle::LifecyclePublisher<std_msgs::msg::String>> pub_;
+
+   std::shared_ptr<rclcpp::TimerBase> timer_;
+};
+
+int main(int argc, char * argv[])
+{
+  setvbuf(stdout, NULL, _IONBF, BUFSIZ);
+
+  rclcpp::init(argc, argv);
+
+  rclcpp::executors::SingleThreadedExecutor exe;
+
+  rclcpp::NodeOptions options ;
+  
+  std::shared_ptr<LifecycleTalker> lc_node =
+    std::make_shared<LifecycleTalker>(options);
+
+  exe.add_node(lc_node->get_node_base_interface());
+
+  exe.spin();
+
+  rclcpp::shutdown();
+
+  return 0;
+}
+" 0 1 (fontified t face font-lock-comment-delimiter-face c-in-sws t c-is-sws t) 1 3 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 3 55 (fontified t face font-lock-comment-face c-in-sws t) 55 56 (fontified t face font-lock-comment-face c-in-sws t) 56 57 (fontified t c-in-sws t) 57 58 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 58 60 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 60 124 (fontified t face font-lock-comment-face c-in-sws t) 124 125 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 125 127 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 127 192 (fontified t face font-lock-comment-face c-in-sws t) 192 195 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 195 235 (fontified t face font-lock-comment-face c-in-sws t) 235 236 (fontified t c-in-sws t) 236 237 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 237 243 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 243 286 (fontified t face font-lock-comment-face c-in-sws t) 286 287 (fontified t c-in-sws t) 287 288 (fontified t face font-lock-comment-delimiter-face c-is-sws t) 288 290 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 290 358 (fontified t face font-lock-comment-face c-in-sws t) 358 361 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 361 427 (fontified t face font-lock-comment-face c-in-sws t) 427 430 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 430 500 (fontified t face font-lock-comment-face c-in-sws t) 500 503 (fontified t face font-lock-comment-face c-in-sws t) 503 504 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 504 506 (fontified t c-in-sws t face font-lock-comment-delimiter-face) 506 574 (fontified t c-in-sws t face font-lock-comment-face) 574 577 (fontified t c-in-sws t face font-lock-comment-delimiter-face) 577 607 (fontified t c-in-sws t face font-lock-comment-face) 607 608 (fontified t face font-lock-comment-face c-in-sws t) 608 609 (fontified t c-is-sws t c-in-sws t) 609 610 (fontified t c-is-sws t c-in-sws t face font-lock-preprocessor-face) 610 617 (fontified t c-in-sws t face font-lock-preprocessor-face) 617 618 (fontified t c-in-sws t) 618 619 (fontified t c-in-sws t face (rainbow-delimiters-depth-1-face font-lock-string-face) category c-<-as-paren-syntax) 619 625 (fontified t c-in-sws t face font-lock-string-face) 625 626 (fontified t c-in-sws t face (rainbow-delimiters-depth-1-face font-lock-string-face) category c->-as-paren-syntax) 626 627 (fontified t c-in-sws t) 627 628 (fontified t c-is-sws t c-in-sws t face font-lock-preprocessor-face) 628 635 (fontified t c-in-sws t face font-lock-preprocessor-face) 635 636 (fontified t c-in-sws t) 636 637 (fontified t c-in-sws t face (rainbow-delimiters-depth-1-face font-lock-string-face) category c-<-as-paren-syntax) 637 645 (fontified t c-in-sws t face font-lock-string-face) 645 646 (fontified t c-in-sws t face (rainbow-delimiters-depth-1-face font-lock-string-face) category c->-as-paren-syntax) 646 647 (fontified t c-in-sws t) 647 648 (fontified t c-is-sws t c-in-sws t face font-lock-preprocessor-face) 648 655 (fontified t c-in-sws t face font-lock-preprocessor-face) 655 656 (fontified t c-in-sws t) 656 657 (fontified t c-in-sws t face (rainbow-delimiters-depth-1-face font-lock-string-face) category c-<-as-paren-syntax) 657 663 (fontified t c-in-sws t face font-lock-string-face) 663 664 (fontified t c-in-sws t face (rainbow-delimiters-depth-1-face font-lock-string-face) category c->-as-paren-syntax) 664 665 (fontified t c-in-sws t) 665 666 (fontified t c-is-sws t c-in-sws t face font-lock-preprocessor-face) 666 673 (fontified t c-in-sws t face font-lock-preprocessor-face) 673 674 (fontified t c-in-sws t) 674 675 (fontified t c-in-sws t face (rainbow-delimiters-depth-1-face font-lock-string-face) category c-<-as-paren-syntax) 675 698 (fontified t c-in-sws t face font-lock-string-face) 698 699 (fontified t c-in-sws t face (rainbow-delimiters-depth-1-face font-lock-string-face) category c->-as-paren-syntax) 699 700 (fontified t c-in-sws t) 700 701 (fontified t c-is-sws t c-in-sws t face font-lock-preprocessor-face) 701 708 (fontified t c-in-sws t face font-lock-preprocessor-face) 708 709 (fontified t c-in-sws t) 709 710 (fontified t c-in-sws t face (rainbow-delimiters-depth-1-face font-lock-string-face) category c-<-as-paren-syntax) 710 716 (fontified t c-in-sws t face font-lock-string-face) 716 717 (fontified t c-in-sws t face (rainbow-delimiters-depth-1-face font-lock-string-face) category c->-as-paren-syntax) 717 718 (fontified t c-in-sws t) 718 719 (fontified t c-is-sws t c-in-sws t face font-lock-preprocessor-face) 719 726 (fontified t c-in-sws t face font-lock-preprocessor-face) 726 727 (fontified t c-in-sws t) 727 728 (fontified t c-in-sws t face (rainbow-delimiters-depth-1-face font-lock-string-face) category c-<-as-paren-syntax) 728 734 (fontified t c-in-sws t face font-lock-string-face) 734 735 (fontified t c-in-sws t face (rainbow-delimiters-depth-1-face font-lock-string-face) category c->-as-paren-syntax) 735 736 (fontified t c-in-sws t) 736 737 (fontified t c-is-sws t c-in-sws t face font-lock-preprocessor-face) 737 744 (fontified t c-in-sws t face font-lock-preprocessor-face) 744 745 (fontified t c-in-sws t) 745 746 (fontified t c-in-sws t face (rainbow-delimiters-depth-1-face font-lock-string-face) category c-<-as-paren-syntax) 746 753 (fontified t c-in-sws t face font-lock-string-face) 753 754 (fontified t c-in-sws t face (rainbow-delimiters-depth-1-face font-lock-string-face) category c->-as-paren-syntax) 754 755 (fontified t c-in-sws t) 755 756 (fontified t c-in-sws t c-is-sws t) 756 757 (fontified t c-is-sws t c-in-sws t face font-lock-preprocessor-face) 757 764 (fontified t c-in-sws t face font-lock-preprocessor-face) 764 765 (fontified t c-in-sws t) 765 800 (fontified t c-in-sws t face font-lock-string-face) 800 801 (fontified t c-in-sws t) 801 802 (fontified t c-in-sws t c-is-sws t) 802 803 (fontified t c-is-sws t c-in-sws t face font-lock-preprocessor-face) 803 810 (fontified t c-in-sws t face font-lock-preprocessor-face) 810 811 (fontified t c-in-sws t) 811 830 (fontified t c-in-sws t face font-lock-string-face) 830 831 (fontified t c-in-sws t) 831 832 (fontified t c-is-sws t c-in-sws t face font-lock-preprocessor-face) 832 839 (fontified t c-in-sws t face font-lock-preprocessor-face) 839 840 (fontified t c-in-sws t) 840 862 (fontified t c-in-sws t face font-lock-string-face) 862 863 (fontified t c-in-sws t) 863 864 (fontified t c-in-sws t c-is-sws t) 864 865 (fontified t c-is-sws t c-in-sws t face font-lock-preprocessor-face) 865 872 (fontified t c-in-sws t face font-lock-preprocessor-face) 872 873 (fontified t c-in-sws t) 873 910 (fontified t c-in-sws t face font-lock-string-face) 910 911 (fontified t c-in-sws t) 911 912 (fontified t c-is-sws t c-in-sws t face font-lock-preprocessor-face) 912 919 (fontified t c-in-sws t face font-lock-preprocessor-face) 919 920 (fontified t c-in-sws t) 920 962 (fontified t c-in-sws t face font-lock-string-face) 962 963 (fontified t c-in-sws t) 963 964 (fontified t c-in-sws t c-is-sws t) 964 965 (fontified t c-is-sws t c-in-sws t face font-lock-preprocessor-face) 965 972 (fontified t c-in-sws t face font-lock-preprocessor-face) 972 973 (fontified t c-in-sws t) 973 999 (fontified t c-in-sws t face font-lock-string-face) 999 1000 (fontified t c-in-sws t) 1000 1001 (fontified t c-in-sws t c-is-sws t) 1001 1002 (fontified t c-is-sws t c-in-sws t face font-lock-preprocessor-face) 1002 1003 (fontified t c-in-sws t face font-lock-preprocessor-face) 1003 1009 (fontified t c-in-sws t face font-lock-preprocessor-face) 1009 1010 (fontified t c-in-sws t) 1010 1035 (fontified t c-in-sws t face font-lock-string-face) 1035 1036 (fontified t c-in-sws t) 1036 1037 (fontified t c-in-sws t c-is-sws t) 1037 1038 (fontified t c-is-sws t face font-lock-keyword-face) 1038 1042 (fontified t face font-lock-keyword-face) 1042 1043 (fontified t) 1043 1052 (fontified t face font-lock-keyword-face) 1052 1053 (fontified t) 1053 1056 (fontified t face font-lock-constant-face) 1056 1058 (fontified t) 1058 1072 (fontified t face font-lock-constant-face) 1072 1073 (fontified t c-type c-decl-id-start face font-lock-constant-face) 1073 1076 (fontified t) 1076 1077 (fontified t c-is-sws t face font-lock-keyword-face) 1077 1080 (fontified t face font-lock-keyword-face) 1080 1081 (fontified t face font-lock-keyword-face c-type c-decl-type-start) 1081 1082 (fontified t) 1082 1097 (fontified t face font-lock-type-face) 1097 1100 (fontified t) 1100 1106 (fontified t face font-lock-keyword-face) 1106 1107 (fontified t) 1107 1123 (fontified t face font-lock-constant-face) 1123 1125 (fontified t) 1125 1138 (fontified t face font-lock-type-face) 1138 1139 (fontified t) 1139 1140 (fontified t face (rainbow-delimiters-depth-1-face)) 1140 1141 (fontified t) 1141 1147 (fontified t face font-lock-keyword-face) 1147 1148 (fontified t c-type c-decl-end) 1148 1149 (fontified t) 1149 1151 (c-in-sws t fontified t) 1151 1152 (c-is-sws t fontified t face font-lock-keyword-face) 1152 1158 (fontified t face font-lock-keyword-face) 1158 1159 (fontified t face font-lock-keyword-face c-type c-decl-id-start) 1159 1160 (fontified t) 1160 1175 (fontified t face font-lock-function-name-face) 1175 1176 (fontified t c-type c-decl-arg-start face (rainbow-delimiters-depth-2-face)) 1176 1179 (fontified t face font-lock-constant-face) 1179 1182 (fontified t face font-lock-constant-face) 1182 1184 (fontified t) 1184 1195 (fontified t face font-lock-type-face) 1195 1198 (fontified t) 1198 1205 (fontified t face font-lock-variable-name-face) 1205 1206 (fontified t face (rainbow-delimiters-depth-2-face)) 1206 1207 (fontified t) 1207 1211 (fontified t) 1211 1227 (fontified t face font-lock-constant-face) 1227 1242 (fontified t) 1242 1243 (fontified t face (rainbow-delimiters-depth-2-face)) 1243 1253 (fontified t face font-lock-string-face) 1253 1254 (fontified t c-type c-not-decl) 1254 1262 (fontified t) 1262 1263 (fontified t face (rainbow-delimiters-depth-2-face)) 1263 1266 (fontified t) 1266 1267 (fontified t face (rainbow-delimiters-depth-2-face)) 1267 1268 (fontified t face (rainbow-delimiters-depth-2-face)) 1268 1270 (fontified t) 1270 1272 (fontified t) 1272 1273 (c-is-sws t fontified t face font-lock-type-face) 1273 1275 (fontified t face font-lock-type-face) 1275 1276 (fontified t c-type c-decl-id-start face font-lock-type-face) 1276 1277 (fontified t) 1277 1279 (fontified t) 1279 1286 (fontified t face font-lock-function-name-face) 1286 1287 (fontified t face (rainbow-delimiters-depth-2-face)) 1287 1288 (fontified t face (rainbow-delimiters-depth-2-face)) 1288 1291 (fontified t) 1291 1292 (fontified t face (rainbow-delimiters-depth-2-face)) 1292 1297 (fontified t) 1297 1303 (fontified t face font-lock-keyword-face) 1303 1304 (fontified t) 1304 1309 (fontified t face font-lock-type-face) 1309 1310 (fontified t c-type c-decl-id-start face font-lock-type-face) 1310 1311 (fontified t) 1311 1313 (fontified t face font-lock-variable-name-face) 1313 1316 (fontified t face font-lock-variable-name-face) 1316 1318 (fontified t) 1318 1326 (fontified t) 1326 1329 (fontified t face font-lock-keyword-face) 1329 1330 (fontified t face font-lock-keyword-face c-type c-decl-id-start) 1330 1331 (fontified t) 1331 1334 (fontified t face font-lock-variable-name-face) 1334 1337 (fontified t) 1337 1340 (fontified t face font-lock-constant-face) 1340 1353 (fontified t) 1353 1354 (category c-<-as-paren-syntax fontified t face (rainbow-delimiters-depth-3-face)) 1354 1362 (fontified t face font-lock-constant-face) 1362 1364 (fontified t) 1364 1367 (fontified t face font-lock-constant-face) 1367 1375 (fontified t) 1375 1376 (category c->-as-paren-syntax fontified t face (rainbow-delimiters-depth-3-face)) 1376 1377 (fontified t face (rainbow-delimiters-depth-3-face)) 1377 1378 (fontified t face (rainbow-delimiters-depth-3-face)) 1378 1396 (fontified t) 1396 1420 (fontified t face font-lock-string-face) 1420 1423 (fontified t) 1423 1426 (fontified t face font-lock-constant-face) 1426 1437 (fontified t) 1437 1438 (fontified t face (rainbow-delimiters-depth-3-face)) 1438 1445 (fontified t) 1445 1446 (fontified t face (rainbow-delimiters-depth-3-face)) 1446 1449 (fontified t) 1449 1453 (c-in-sws t c-is-sws t fontified t) 1453 1454 (c-in-sws t c-is-sws t fontified t face font-lock-comment-delimiter-face) 1454 1456 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 1456 1498 (c-in-sws t fontified t face font-lock-comment-face) 1498 1502 (c-is-sws t c-in-sws t fontified t) 1502 1503 (c-is-sws t fontified t face font-lock-keyword-face) 1503 1504 (fontified t face font-lock-keyword-face) 1504 1505 (fontified t) 1505 1506 (fontified t face (rainbow-delimiters-depth-3-face)) 1506 1507 (fontified t face font-lock-negation-char-face) 1507 1525 (fontified t) 1525 1526 (fontified t face (rainbow-delimiters-depth-4-face)) 1526 1527 (fontified t face (rainbow-delimiters-depth-4-face)) 1527 1528 (fontified t face (rainbow-delimiters-depth-3-face)) 1528 1529 (fontified t) 1529 1530 (fontified t face (rainbow-delimiters-depth-3-face)) 1530 1548 (fontified t) 1548 1549 (fontified t face (rainbow-delimiters-depth-4-face)) 1549 1568 (fontified t) 1568 1569 (fontified t face (rainbow-delimiters-depth-5-face)) 1569 1570 (fontified t face (rainbow-delimiters-depth-5-face)) 1570 1572 (fontified t) 1572 1644 (fontified t face font-lock-string-face) 1644 1645 (fontified t face (rainbow-delimiters-depth-4-face)) 1645 1651 (fontified t) 1651 1652 (fontified t face (rainbow-delimiters-depth-3-face)) 1652 1653 (fontified t) 1653 1657 (fontified t face font-lock-keyword-face) 1657 1658 (fontified t) 1658 1659 (fontified t face (rainbow-delimiters-depth-3-face)) 1659 1677 (fontified t) 1677 1678 (fontified t face (rainbow-delimiters-depth-4-face)) 1678 1697 (fontified t) 1697 1698 (fontified t face (rainbow-delimiters-depth-5-face)) 1698 1699 (fontified t face (rainbow-delimiters-depth-5-face)) 1699 1701 (fontified t) 1701 1750 (fontified t face font-lock-string-face) 1750 1764 (fontified t) 1764 1767 (fontified t) 1767 1768 (fontified t face (rainbow-delimiters-depth-5-face)) 1768 1769 (fontified t face (rainbow-delimiters-depth-5-face)) 1769 1770 (fontified t face (rainbow-delimiters-depth-4-face)) 1770 1771 (fontified t) 1771 1772 (fontified t) 1772 1776 (fontified t) 1776 1777 (fontified t face (rainbow-delimiters-depth-3-face)) 1777 1778 (fontified t) 1778 1779 (fontified t) 1779 1783 (fontified t) 1783 1784 (c-is-sws t fontified t) 1784 1796 (fontified t) 1796 1797 (fontified t face (rainbow-delimiters-depth-3-face)) 1797 1800 (fontified t face font-lock-constant-face) 1800 1806 (fontified t) 1806 1807 (fontified t face (rainbow-delimiters-depth-4-face)) 1807 1810 (fontified t) 1810 1811 (fontified t face (rainbow-delimiters-depth-4-face)) 1811 1812 (fontified t face (rainbow-delimiters-depth-3-face)) 1812 1813 (fontified t) 1813 1814 (fontified t) 1814 1816 (fontified t) 1816 1817 (fontified t face (rainbow-delimiters-depth-2-face)) 1817 1819 (fontified t) 1819 1821 (fontified t) 1821 1822 (c-is-sws t fontified t face font-lock-constant-face) 1822 1837 (fontified t face font-lock-constant-face) 1837 1839 (fontified t) 1839 1854 (fontified t face font-lock-constant-face) 1854 1856 (fontified t) 1856 1878 (fontified t face font-lock-constant-face) 1878 1880 (fontified t) 1880 1893 (fontified t face font-lock-type-face) 1893 1894 (fontified t c-type c-decl-id-start face font-lock-type-face) 1894 1895 (fontified t) 1895 1897 (fontified t) 1897 1909 (fontified t face font-lock-function-name-face) 1909 1910 (fontified t c-type c-decl-arg-start face (rainbow-delimiters-depth-2-face)) 1910 1915 (fontified t face font-lock-keyword-face) 1915 1916 (fontified t) 1916 1932 (fontified t face font-lock-constant-face) 1932 1934 (fontified t) 1934 1939 (fontified t face font-lock-type-face) 1939 1941 (fontified t) 1941 1942 (fontified t face (rainbow-delimiters-depth-2-face)) 1942 1945 (fontified t) 1945 1946 (fontified t face (rainbow-delimiters-depth-2-face)) 1946 1947 (fontified t) 1947 1951 (fontified t) 1951 1952 (c-is-sws t fontified t) 1952 1957 (fontified t) 1957 1958 (fontified t) 1958 1962 (fontified t face font-lock-keyword-face) 1962 1980 (fontified t) 1980 1981 (category c-<-as-paren-syntax fontified t face (rainbow-delimiters-depth-3-face)) 1981 1989 (fontified t face font-lock-constant-face) 1989 1991 (fontified t) 1991 1994 (fontified t face font-lock-constant-face) 1994 2002 (fontified t) 2002 2003 (category c->-as-paren-syntax fontified t face (rainbow-delimiters-depth-3-face)) 2003 2004 (fontified t face (rainbow-delimiters-depth-3-face)) 2004 2023 (fontified t face font-lock-string-face) 2023 2027 (fontified t) 2027 2028 (fontified t face (rainbow-delimiters-depth-3-face)) 2028 2030 (fontified t) 2030 2043 (fontified t) 2043 2047 (fontified t face font-lock-keyword-face) 2047 2066 (fontified t) 2066 2067 (fontified t face (rainbow-delimiters-depth-3-face)) 2067 2078 (fontified t) 2078 2081 (fontified t face font-lock-constant-face) 2081 2087 (fontified t) 2087 2088 (fontified t face (rainbow-delimiters-depth-4-face)) 2088 2089 (fontified t) 2089 2104 (fontified t face font-lock-constant-face) 2104 2115 (fontified t) 2115 2119 (fontified t face font-lock-keyword-face) 2119 2120 (fontified t face (rainbow-delimiters-depth-4-face)) 2120 2121 (fontified t face (rainbow-delimiters-depth-3-face)) 2121 2139 (fontified t) 2139 2140 (fontified t face (rainbow-delimiters-depth-3-face)) 2140 2150 (fontified t) 2150 2151 (fontified t face (rainbow-delimiters-depth-4-face)) 2151 2152 (fontified t face (rainbow-delimiters-depth-4-face)) 2152 2154 (fontified t) 2154 2181 (fontified t face font-lock-string-face) 2181 2182 (fontified t face (rainbow-delimiters-depth-3-face)) 2182 2184 (fontified t) 2184 2188 (fontified t) 2188 2189 (c-is-sws t fontified t face font-lock-keyword-face) 2189 2194 (fontified t face font-lock-keyword-face) 2194 2195 (fontified t) 2195 2211 (fontified t face font-lock-constant-face) 2211 2213 (fontified t) 2213 2228 (fontified t face font-lock-constant-face) 2228 2230 (fontified t) 2230 2252 (fontified t face font-lock-constant-face) 2252 2254 (fontified t) 2254 2268 (fontified t face font-lock-constant-face) 2268 2279 (fontified t) 2279 2281 (fontified t) 2281 2282 (fontified t face (rainbow-delimiters-depth-2-face)) 2282 2284 (fontified t) 2284 2286 (fontified t) 2286 2287 (c-is-sws t fontified t face font-lock-constant-face) 2287 2302 (fontified t face font-lock-constant-face) 2302 2304 (fontified t) 2304 2319 (fontified t face font-lock-constant-face) 2319 2321 (fontified t) 2321 2343 (fontified t face font-lock-constant-face) 2343 2345 (fontified t) 2345 2358 (fontified t face font-lock-type-face) 2358 2359 (fontified t c-type c-decl-id-start face font-lock-type-face) 2359 2360 (fontified t) 2360 2362 (fontified t) 2362 2373 (fontified t face font-lock-function-name-face) 2373 2374 (fontified t c-type c-decl-arg-start face (rainbow-delimiters-depth-2-face)) 2374 2379 (fontified t face font-lock-keyword-face) 2379 2380 (fontified t) 2380 2396 (fontified t face font-lock-constant-face) 2396 2398 (fontified t) 2398 2403 (fontified t face font-lock-type-face) 2403 2405 (fontified t) 2405 2406 (fontified t face (rainbow-delimiters-depth-2-face)) 2406 2407 (fontified t) 2407 2408 (fontified t face (rainbow-delimiters-depth-2-face)) 2408 2409 (fontified t) 2409 2413 (fontified t) 2413 2414 (c-is-sws t fontified t) 2414 2430 (fontified t) 2430 2431 (fontified t face (rainbow-delimiters-depth-3-face)) 2431 2432 (fontified t face (rainbow-delimiters-depth-3-face)) 2432 2433 (fontified t) 2433 2434 (fontified t) 2434 2438 (fontified t) 2438 2439 (fontified t) 2439 2465 (fontified t) 2465 2466 (fontified t face (rainbow-delimiters-depth-3-face)) 2466 2474 (fontified t) 2474 2475 (fontified t face (rainbow-delimiters-depth-4-face)) 2475 2476 (fontified t face (rainbow-delimiters-depth-4-face)) 2476 2478 (fontified t) 2478 2504 (fontified t face font-lock-string-face) 2504 2505 (fontified t face (rainbow-delimiters-depth-3-face)) 2505 2507 (fontified t) 2507 2511 (fontified t) 2511 2512 (c-is-sws t fontified t face font-lock-constant-face) 2512 2514 (fontified t face font-lock-constant-face) 2514 2516 (fontified t) 2516 2527 (fontified t face font-lock-constant-face) 2527 2538 (fontified t) 2538 2539 (fontified t face (rainbow-delimiters-depth-3-face)) 2539 2541 (fontified t) 2541 2542 (fontified t face (rainbow-delimiters-depth-3-face)) 2542 2544 (fontified t) 2544 2548 (fontified t) 2548 2549 (c-is-sws t fontified t face font-lock-keyword-face) 2549 2554 (fontified t face font-lock-keyword-face) 2554 2555 (fontified t) 2555 2571 (fontified t face font-lock-constant-face) 2571 2573 (fontified t) 2573 2588 (fontified t face font-lock-constant-face) 2588 2590 (fontified t) 2590 2612 (fontified t face font-lock-constant-face) 2612 2614 (fontified t) 2614 2628 (fontified t face font-lock-constant-face) 2628 2638 (fontified t) 2638 2639 (fontified t) 2639 2641 (fontified t) 2641 2642 (fontified t face (rainbow-delimiters-depth-2-face)) 2642 2644 (fontified t) 2644 2646 (fontified t) 2646 2647 (c-is-sws t fontified t face font-lock-constant-face) 2647 2662 (fontified t face font-lock-constant-face) 2662 2664 (fontified t) 2664 2676 (fontified t face font-lock-constant-face) 2676 2679 (fontified t face font-lock-constant-face) 2679 2681 (fontified t) 2681 2703 (fontified t face font-lock-constant-face) 2703 2705 (fontified t) 2705 2718 (fontified t face font-lock-type-face) 2718 2719 (fontified t c-type c-decl-id-start face font-lock-type-face) 2719 2720 (fontified t) 2720 2722 (fontified t) 2722 2735 (fontified t face font-lock-function-name-face) 2735 2736 (fontified t c-type c-decl-arg-start face (rainbow-delimiters-depth-2-face)) 2736 2741 (fontified t face font-lock-keyword-face) 2741 2742 (fontified t) 2742 2758 (fontified t face font-lock-constant-face) 2758 2760 (fontified t) 2760 2765 (fontified t face font-lock-type-face) 2765 2767 (fontified t) 2767 2768 (fontified t face (rainbow-delimiters-depth-2-face)) 2768 2771 (fontified t) 2771 2772 (fontified t face (rainbow-delimiters-depth-2-face)) 2772 2773 (fontified t) 2773 2777 (fontified t) 2777 2778 (c-is-sws t fontified t) 2778 2796 (fontified t) 2796 2797 (fontified t face (rainbow-delimiters-depth-3-face)) 2797 2798 (fontified t face (rainbow-delimiters-depth-3-face)) 2798 2799 (fontified t) 2799 2800 (fontified t) 2800 2827 (fontified t) 2827 2828 (fontified t face (rainbow-delimiters-depth-3-face)) 2828 2836 (fontified t) 2836 2837 (fontified t face (rainbow-delimiters-depth-4-face)) 2837 2838 (fontified t face (rainbow-delimiters-depth-4-face)) 2838 2840 (fontified t) 2840 2868 (fontified t face font-lock-string-face) 2868 2869 (fontified t face (rainbow-delimiters-depth-3-face)) 2869 2872 (fontified t) 2872 2876 (c-in-sws t c-is-sws t fontified t) 2876 2877 (c-is-sws t fontified t face font-lock-keyword-face) 2877 2882 (fontified t face font-lock-keyword-face) 2882 2883 (fontified t) 2883 2899 (fontified t face font-lock-constant-face) 2899 2901 (fontified t) 2901 2916 (fontified t face font-lock-constant-face) 2916 2918 (fontified t) 2918 2930 (fontified t face font-lock-constant-face) 2930 2940 (fontified t face font-lock-constant-face) 2940 2942 (fontified t) 2942 2956 (fontified t face font-lock-constant-face) 2956 2966 (fontified t) 2966 2967 (fontified t) 2967 2969 (fontified t) 2969 2970 (fontified t face (rainbow-delimiters-depth-2-face)) 2970 2971 (fontified t) 2971 2973 (fontified t) 2973 2974 (c-is-sws t fontified t face font-lock-constant-face) 2974 2989 (fontified t face font-lock-constant-face) 2989 2991 (fontified t) 2991 3006 (fontified t face font-lock-constant-face) 3006 3008 (fontified t) 3008 3030 (fontified t face font-lock-constant-face) 3030 3032 (fontified t) 3032 3045 (fontified t face font-lock-type-face) 3045 3046 (fontified t c-type c-decl-id-start face font-lock-type-face) 3046 3047 (fontified t) 3047 3049 (fontified t) 3049 3059 (fontified t face font-lock-function-name-face) 3059 3060 (fontified t c-type c-decl-arg-start face (rainbow-delimiters-depth-2-face)) 3060 3065 (fontified t face font-lock-keyword-face) 3065 3066 (fontified t) 3066 3082 (fontified t face font-lock-constant-face) 3082 3084 (fontified t) 3084 3089 (fontified t face font-lock-type-face) 3089 3091 (fontified t) 3091 3092 (fontified t face (rainbow-delimiters-depth-2-face)) 3092 3095 (fontified t) 3095 3096 (fontified t face (rainbow-delimiters-depth-2-face)) 3096 3097 (fontified t) 3097 3101 (fontified t) 3101 3102 (c-is-sws t fontified t) 3102 3113 (fontified t) 3113 3114 (fontified t face (rainbow-delimiters-depth-3-face)) 3114 3115 (fontified t face (rainbow-delimiters-depth-3-face)) 3115 3117 (fontified t) 3117 3131 (fontified t) 3131 3132 (fontified t face (rainbow-delimiters-depth-3-face)) 3132 3133 (fontified t face (rainbow-delimiters-depth-3-face)) 3133 3162 (fontified t) 3162 3163 (fontified t face (rainbow-delimiters-depth-3-face)) 3163 3171 (fontified t) 3171 3172 (fontified t face (rainbow-delimiters-depth-4-face)) 3172 3173 (fontified t face (rainbow-delimiters-depth-4-face)) 3173 3175 (fontified t) 3175 3198 (fontified t face font-lock-string-face) 3198 3199 (fontified t face (rainbow-delimiters-depth-3-face)) 3199 3201 (fontified t) 3201 3205 (fontified t) 3205 3206 (c-is-sws t fontified t face font-lock-keyword-face) 3206 3211 (fontified t face font-lock-keyword-face) 3211 3212 (fontified t) 3212 3228 (fontified t face font-lock-constant-face) 3228 3230 (fontified t) 3230 3245 (fontified t face font-lock-constant-face) 3245 3247 (fontified t) 3247 3269 (fontified t face font-lock-constant-face) 3269 3271 (fontified t) 3271 3285 (fontified t face font-lock-constant-face) 3285 3296 (fontified t) 3296 3298 (fontified t) 3298 3299 (fontified t face (rainbow-delimiters-depth-2-face)) 3299 3300 (fontified t) 3300 3302 (fontified t) 3302 3303 (c-is-sws t fontified t face font-lock-constant-face) 3303 3318 (fontified t face font-lock-constant-face) 3318 3320 (fontified t) 3320 3335 (fontified t face font-lock-constant-face) 3335 3337 (fontified t) 3337 3359 (fontified t face font-lock-constant-face) 3359 3361 (fontified t) 3361 3374 (fontified t face font-lock-type-face) 3374 3375 (fontified t c-type c-decl-id-start face font-lock-type-face) 3375 3376 (fontified t) 3376 3378 (fontified t) 3378 3389 (fontified t face font-lock-function-name-face) 3389 3390 (fontified t c-type c-decl-arg-start face (rainbow-delimiters-depth-2-face)) 3390 3395 (fontified t face font-lock-keyword-face) 3395 3396 (fontified t) 3396 3412 (fontified t face font-lock-constant-face) 3412 3414 (fontified t) 3414 3419 (fontified t face font-lock-type-face) 3419 3422 (fontified t) 3422 3427 (fontified t face font-lock-variable-name-face) 3427 3428 (fontified t face (rainbow-delimiters-depth-2-face)) 3428 3431 (fontified t) 3431 3432 (fontified t face (rainbow-delimiters-depth-2-face)) 3432 3433 (fontified t) 3433 3434 (c-in-sws t c-is-sws t fontified t) 3434 3435 (fontified t) 3435 3436 (c-in-sws t fontified t) 3436 3437 (c-is-sws t fontified t) 3437 3448 (fontified t) 3448 3449 (fontified t face (rainbow-delimiters-depth-3-face)) 3449 3450 (fontified t face (rainbow-delimiters-depth-3-face)) 3450 3452 (fontified t) 3452 3455 (fontified t) 3455 3465 (fontified t) 3465 3466 (fontified t face (rainbow-delimiters-depth-3-face)) 3466 3467 (fontified t face (rainbow-delimiters-depth-3-face)) 3467 3469 (fontified t) 3469 3496 (fontified t) 3496 3497 (fontified t face (rainbow-delimiters-depth-3-face)) 3497 3512 (fontified t) 3512 3513 (fontified t face (rainbow-delimiters-depth-4-face)) 3513 3514 (fontified t face (rainbow-delimiters-depth-4-face)) 3514 3522 (fontified t) 3522 3560 (fontified t face font-lock-string-face) 3560 3579 (fontified t) 3579 3580 (fontified t face (rainbow-delimiters-depth-4-face)) 3580 3581 (fontified t face (rainbow-delimiters-depth-4-face)) 3581 3587 (fontified t) 3587 3588 (fontified t face (rainbow-delimiters-depth-4-face)) 3588 3589 (fontified t face (rainbow-delimiters-depth-4-face)) 3589 3590 (fontified t face (rainbow-delimiters-depth-3-face)) 3590 3595 (fontified t) 3595 3601 (fontified t face font-lock-keyword-face) 3601 3602 (fontified t) 3602 3618 (fontified t face font-lock-constant-face) 3618 3620 (fontified t) 3620 3635 (fontified t face font-lock-constant-face) 3635 3637 (fontified t) 3637 3659 (fontified t face font-lock-constant-face) 3659 3661 (fontified t) 3661 3675 (fontified t face font-lock-constant-face) 3675 3688 (fontified t) 3688 3689 (fontified t face (rainbow-delimiters-depth-2-face)) 3689 3691 (fontified t) 3691 3698 (fontified t face font-lock-keyword-face) 3698 3699 (fontified t c-type c-decl-end) 3699 3702 (fontified t) 3702 3705 (fontified t face font-lock-constant-face) 3705 3707 (fontified t) 3707 3717 (fontified t face font-lock-type-face) 3717 3718 (category c-<-as-paren-syntax fontified t face (rainbow-delimiters-depth-2-face)) 3718 3734 (fontified t face font-lock-constant-face) 3734 3736 (fontified t) 3736 3754 (fontified t face font-lock-type-face) 3754 3755 (category c-<-as-paren-syntax fontified t face (rainbow-delimiters-depth-3-face)) 3755 3763 (fontified t face font-lock-constant-face) 3763 3765 (fontified t) 3765 3768 (fontified t face font-lock-constant-face) 3768 3776 (fontified t) 3776 3777 (category c->-as-paren-syntax fontified t face (rainbow-delimiters-depth-3-face)) 3777 3778 (category c->-as-paren-syntax fontified t c-type c-decl-id-start face (rainbow-delimiters-depth-2-face)) 3778 3779 (fontified t) 3779 3783 (fontified t face font-lock-variable-name-face) 3783 3789 (fontified t) 3789 3792 (fontified t face font-lock-constant-face) 3792 3794 (fontified t) 3794 3804 (fontified t face font-lock-type-face) 3804 3805 (category c-<-as-paren-syntax fontified t face (rainbow-delimiters-depth-2-face)) 3805 3811 (fontified t face font-lock-constant-face) 3811 3822 (fontified t) 3822 3823 (category c->-as-paren-syntax fontified t c-type c-decl-id-start face (rainbow-delimiters-depth-2-face)) 3823 3824 (fontified t) 3824 3830 (fontified t face font-lock-variable-name-face) 3830 3832 (fontified t) 3832 3833 (fontified t face (rainbow-delimiters-depth-1-face)) 3833 3836 (fontified t) 3836 3838 (fontified t face font-lock-type-face) 3838 3839 (fontified t c-type c-decl-id-start face font-lock-type-face) 3839 3840 (fontified t) 3840 3844 (fontified t face font-lock-function-name-face) 3844 3845 (fontified t c-type c-decl-arg-start face (rainbow-delimiters-depth-1-face)) 3845 3848 (fontified t face font-lock-type-face) 3848 3849 (fontified t) 3849 3853 (fontified t face font-lock-variable-name-face) 3853 3854 (fontified t c-type c-decl-arg-start) 3854 3855 (fontified t) 3855 3859 (fontified t face font-lock-type-face) 3859 3862 (fontified t) 3862 3866 (fontified t face font-lock-variable-name-face) 3866 3867 (fontified t face (rainbow-delimiters-depth-2-face)) 3867 3868 (fontified t face (rainbow-delimiters-depth-2-face)) 3868 3869 (fontified t face (rainbow-delimiters-depth-1-face)) 3869 3870 (fontified t) 3870 3871 (fontified t face (rainbow-delimiters-depth-1-face)) 3871 3876 (fontified t) 3876 3881 (fontified t) 3881 3882 (fontified t face (rainbow-delimiters-depth-2-face)) 3882 3890 (fontified t) 3890 3894 (fontified t face font-lock-constant-face) 3894 3910 (fontified t) 3910 3911 (fontified t face (rainbow-delimiters-depth-2-face)) 3911 3912 (fontified t) 3912 3916 (fontified t) 3916 3922 (fontified t face font-lock-constant-face) 3922 3928 (fontified t) 3928 3929 (fontified t face (rainbow-delimiters-depth-2-face)) 3929 3939 (fontified t) 3939 3940 (fontified t face (rainbow-delimiters-depth-2-face)) 3940 3945 (fontified t) 3945 3951 (fontified t face font-lock-constant-face) 3951 3953 (fontified t) 3953 3962 (fontified t face font-lock-constant-face) 3962 3964 (fontified t) 3964 3985 (fontified t face font-lock-type-face) 3985 3986 (fontified t c-type c-decl-id-start face font-lock-type-face) 3986 3987 (fontified t) 3987 3990 (fontified t face font-lock-variable-name-face) 3990 3995 (fontified t) 3995 4001 (fontified t face font-lock-constant-face) 4001 4003 (fontified t) 4003 4013 (fontified t face font-lock-type-face) 4013 4014 (fontified t c-type c-decl-id-start face font-lock-type-face) 4014 4015 (fontified t) 4015 4022 (fontified t face font-lock-variable-name-face) 4022 4030 (fontified t) 4030 4033 (fontified t face font-lock-constant-face) 4033 4035 (fontified t) 4035 4045 (fontified t face font-lock-type-face) 4045 4046 (category c-<-as-paren-syntax fontified t face (rainbow-delimiters-depth-2-face)) 4046 4061 (fontified t face font-lock-type-face) 4061 4062 (category c->-as-paren-syntax fontified t c-type c-decl-id-start face (rainbow-delimiters-depth-2-face)) 4062 4063 (fontified t) 4063 4070 (fontified t face font-lock-variable-name-face) 4070 4077 (fontified t) 4077 4080 (fontified t face font-lock-constant-face) 4080 4093 (fontified t) 4093 4094 (category c-<-as-paren-syntax fontified t face (rainbow-delimiters-depth-2-face)) 4094 4109 (fontified t face font-lock-type-face) 4109 4110 (category c->-as-paren-syntax fontified t face (rainbow-delimiters-depth-2-face)) 4110 4111 (fontified t face (rainbow-delimiters-depth-2-face)) 4111 4118 (fontified t) 4118 4119 (fontified t face (rainbow-delimiters-depth-2-face)) 4119 4136 (fontified t) 4136 4137 (fontified t face (rainbow-delimiters-depth-2-face)) 4137 4169 (fontified t) 4169 4170 (fontified t face (rainbow-delimiters-depth-3-face)) 4170 4171 (fontified t face (rainbow-delimiters-depth-3-face)) 4171 4172 (fontified t face (rainbow-delimiters-depth-2-face)) 4172 4185 (fontified t) 4185 4186 (fontified t face (rainbow-delimiters-depth-2-face)) 4186 4187 (fontified t face (rainbow-delimiters-depth-2-face)) 4187 4192 (fontified t) 4192 4198 (fontified t face font-lock-constant-face) 4198 4208 (fontified t) 4208 4209 (fontified t face (rainbow-delimiters-depth-2-face)) 4209 4210 (fontified t face (rainbow-delimiters-depth-2-face)) 4210 4215 (fontified t) 4215 4221 (fontified t face font-lock-keyword-face) 4221 4225 (fontified t) 4225 4226 (fontified t face (rainbow-delimiters-depth-1-face)) 4226 4227 (rear-nonsticky t fontified t)) . 1) (undo-tree-id187 . -801) (undo-tree-id188 . -1090) (undo-tree-id189 . -4227) (undo-tree-id190 . -4226) (undo-tree-id191 . -1001) (undo-tree-id192 . -1035) (undo-tree-id193 . -4227) (undo-tree-id194 . -4227) (undo-tree-id195 . -4226) (undo-tree-id196 . -1252) (undo-tree-id197 . -1036) (undo-tree-id198 . -1090) (undo-tree-id199 . -1090) (undo-tree-id200 . -1090) (undo-tree-id201 . -1090) (undo-tree-id202 . -1090) (undo-tree-id203 . -1090) (undo-tree-id204 . -1090) (undo-tree-id205 . -1090) (undo-tree-id206 . -1090) (undo-tree-id207 . -1) (undo-tree-id208 . -1) (undo-tree-id209 . -674) (undo-tree-id210 . -675) (undo-tree-id211 . -811) (undo-tree-id212 . -830) (undo-tree-id213 . -1511) (undo-tree-id214 . -1513) (undo-tree-id215 . -1558) (undo-tree-id216 . -1568) (undo-tree-id217 . -1687) (undo-tree-id218 . -1697) (undo-tree-id219 . -1797) (undo-tree-id220 . -1811) (undo-tree-id221 . -1958) (undo-tree-id222 . -2003) (undo-tree-id223 . -2043) (undo-tree-id224 . -2066) (undo-tree-id225 . -2140) (undo-tree-id226 . -2150) (undo-tree-id227 . -2466) (undo-tree-id228 . -2474) (undo-tree-id229 . -2783) (undo-tree-id230 . -2796) (undo-tree-id231 . -2828) (undo-tree-id232 . -2836) (undo-tree-id233 . -3163) (undo-tree-id234 . -3171) (undo-tree-id235 . -1090) (undo-tree-id236 . -1090) (undo-tree-id237 . -1090) (undo-tree-id238 . -1090) (undo-tree-id239 . -1090) (undo-tree-id240 . -1090) (undo-tree-id241 . -1090) (undo-tree-id242 . -1090) (undo-tree-id243 . -1090) (undo-tree-id244 . -1090) (undo-tree-id245 . -1090) (undo-tree-id246 . -1090) (undo-tree-id247 . -1090) (undo-tree-id248 . -1090) (undo-tree-id249 . -1090) (undo-tree-id250 . -1090) (undo-tree-id251 . -1090) (undo-tree-id252 . -1090) (undo-tree-id253 . -1090) (undo-tree-id254 . -1090) (undo-tree-id255 . -1090) (undo-tree-id256 . -1090) (undo-tree-id257 . -1090) (undo-tree-id258 . -1090) (undo-tree-id259 . -1090) (undo-tree-id260 . -1090) (undo-tree-id261 . -1090) (undo-tree-id262 . -1090) (undo-tree-id263 . -1090) (undo-tree-id264 . -1090) (undo-tree-id265 . -1090) (undo-tree-id266 . -1090) (undo-tree-id267 . -1090) (undo-tree-id268 . -1090) (undo-tree-id269 . -1090) (undo-tree-id270 . -1090) (undo-tree-id271 . -1090) (undo-tree-id272 . -1090) (undo-tree-id273 . -1090) (undo-tree-id274 . -1090) (undo-tree-id275 . -1090) (undo-tree-id276 . -1090) (undo-tree-id277 . -1090) (undo-tree-id278 . -1090) (undo-tree-id279 . -1090) (undo-tree-id280 . -1090) (undo-tree-id281 . -1090) (undo-tree-id282 . -1090) (undo-tree-id283 . -1090) (undo-tree-id284 . -1090) (undo-tree-id285 . -1090) (undo-tree-id286 . -1090) (undo-tree-id287 . -1090) (undo-tree-id288 . -1090) (undo-tree-id289 . -1090) (undo-tree-id290 . -1090) (undo-tree-id291 . -1090) (undo-tree-id292 . -1090) (undo-tree-id293 . -1090) (undo-tree-id294 . -1090) (undo-tree-id295 . -1090) (undo-tree-id296 . -1090) (undo-tree-id297 . -1090) (undo-tree-id298 . -1090) (undo-tree-id299 . -1090) (undo-tree-id300 . -1090) (undo-tree-id301 . -1090) (undo-tree-id302 . -1090) (undo-tree-id303 . -1090) (undo-tree-id304 . -1090) (undo-tree-id305 . -1090) (undo-tree-id306 . -1090) (undo-tree-id307 . -1090) (undo-tree-id308 . -1090) (undo-tree-id309 . -1090) (undo-tree-id310 . -1090) (undo-tree-id311 . -1090) (undo-tree-id312 . -1090) (undo-tree-id313 . -1090) (undo-tree-id314 . -1090) (undo-tree-id315 . -1090) (undo-tree-id316 . -1090) (undo-tree-id317 . -1090) (undo-tree-id318 . -1090) (undo-tree-id319 . -1090) (undo-tree-id320 . -1090) (undo-tree-id321 . -1090) (undo-tree-id322 . -1090) (undo-tree-id323 . -1090) (undo-tree-id324 . -1051) (undo-tree-id325 . -1090) (undo-tree-id326 . -1090) (undo-tree-id327 . -4227) (undo-tree-id328 . -4227) (undo-tree-id329 . -4227) (undo-tree-id330 . -4227) (undo-tree-id331 . -4227) (undo-tree-id332 . -4227) (undo-tree-id333 . -4227) (undo-tree-id334 . -4227) (undo-tree-id335 . -4227) (undo-tree-id336 . -4227) (undo-tree-id337 . -4227) (undo-tree-id338 . -4227) (undo-tree-id339 . -4227) (undo-tree-id340 . -4227) (undo-tree-id341 . -4227) (undo-tree-id342 . -4227) (undo-tree-id343 . 3609) (undo-tree-id344 . -626) (undo-tree-id345 . 3591) (undo-tree-id346 . -646) (undo-tree-id347 . 3571) (undo-tree-id348 . -664) (undo-tree-id349 . 3553) (undo-tree-id350 . -699) (undo-tree-id351 . 3518) (undo-tree-id352 . -717) (undo-tree-id353 . 3500) (undo-tree-id354 . -735) (undo-tree-id355 . 3482) (undo-tree-id356 . -754) (undo-tree-id357 . 3462) (undo-tree-id358 . -800) (undo-tree-id359 . 3416) (undo-tree-id360 . -830) (undo-tree-id361 . 3387) (undo-tree-id362 . -862) (undo-tree-id363 . 3354) (undo-tree-id364 . -910) (undo-tree-id365 . 3307) (undo-tree-id366 . -962) (undo-tree-id367 . 3254) (undo-tree-id368 . -999) (undo-tree-id369 . 3217) (undo-tree-id370 . -1035) (undo-tree-id371 . -4227) (t 26225 59536 877946 436000)) nil (26225 61453 319506 387000) 0 nil])
+([nil nil ((#("// Copyright 2016 Open Source Robotics Foundation, Inc.
+//
+// Licensed under the Apache License, Version 2.0 (the \"License\");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an \"AS IS\" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+#include <chrono>
+#include <iostream>
+#include <memory>
+#include <string>
+#include <thread>
+#include <utility>
+
+#include \"lifecycle_msgs/msg/transition.hpp\"
+
+#include \"rclcpp/rclcpp.hpp\"
+#include \"rclcpp/publisher.hpp\"
+
+#include \"rclcpp_lifecycle/lifecycle_node.hpp\"
+#include \"rclcpp_lifecycle/lifecycle_publisher.hpp\"
+
+#include \"rcutils/logging_macros.h\"
+
+#include \"std_msgs/msg/string.hpp\"
+
+using namespace std::chrono_literals;
+
+/// LifecycleTalker inheriting from rclcpp_lifecycle::LifecycleNode
+/**
+ * The lifecycle talker does not like the regular \"talker\" node
+ * inherit from node, but rather from lifecyclenode. This brings
+ * in a set of callbacks which are getting invoked depending on
+ * the current state of the node.
+ * Every lifecycle node has a set of services attached to it
+ * which make it controllable from the outside and invoke state
+ * changes.
+ * Available Services as for Beta1:
+ * - <node_name>__get_state
+ * - <node_name>__change_state
+ * - <node_name>__get_available_states
+ * - <node_name>__get_available_transitions
+ * Additionally, a publisher for state change notifications is
+ * created:
+ * - <node_name>__transition_event
+ */
+class LifecycleTalker : public rclcpp_lifecycle::LifecycleNode
+{
+public:
+  /// LifecycleTalker constructor
+  /**
+   * The lifecycletalker/lifecyclenode constructor has the same
+   * arguments a regular node.
+   */
+  explicit LifecycleTalker(const std::string & node_name, bool intra_process_comms = false)
+  : rclcpp_lifecycle::LifecycleNode(node_name,
+      rclcpp::NodeOptions().use_intra_process_comms(intra_process_comms))
+  {}
+
+  /// Callback for walltimer in order to publish the message.
+  /**
+   * Callback for walltimer. This function gets invoked by the timer
+   * and executes the publishing.
+   * For this demo, we ask the node for its current state. If the
+   * lifecycle publisher is not activate, we still invoke publish, but
+   * the communication is blocked so that no messages is actually transferred.
+   */
+  void
+  publish()
+  {
+    static size_t count = 0;
+    auto msg = std::make_unique<std_msgs::msg::String>();
+    msg->data = \"Lifecycle HelloWorld #\" + std::to_string(++count);
+
+    // Print the current state for demo purposes
+    if (!pub_->is_activated()) {
+      RCLCPP_INFO(
+        get_logger(), \"Lifecycle publisher is currently inactive. Messages are not published.\");
+    } else {
+      RCLCPP_INFO(
+        get_logger(), \"Lifecycle publisher is active. Publishing: [%s]\", msg->data.c_str());
+    }
+
+    // We independently from the current state call publish on the lifecycle
+    // publisher.
+    // Only if the publisher is in an active state, the message transfer is
+    // enabled and the message actually published.
+    pub_->publish(std::move(msg));
+  }
+
+  /// Transition callback for state configuring
+  /**
+   * on_configure callback is being called when the lifecycle node
+   * enters the \"configuring\" state.
+   * Depending on the return value of this function, the state machine
+   * either invokes a transition to the \"inactive\" state or stays
+   * in \"unconfigured\".
+   * TRANSITION_CALLBACK_SUCCESS transitions to \"inactive\"
+   * TRANSITION_CALLBACK_FAILURE transitions to \"unconfigured\"
+   * TRANSITION_CALLBACK_ERROR or any uncaught exceptions to \"errorprocessing\"
+   */
+  rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn
+  on_configure(const rclcpp_lifecycle::State &)
+  {
+    // This callback is supposed to be used for initialization and
+    // configuring purposes.
+    // We thus initialize and configure our publishers and timers.
+    // The lifecycle node API does return lifecycle components such as
+    // lifecycle publishers. These entities obey the lifecycle and
+    // can comply to the current state of the node.
+    // As of the beta version, there is only a lifecycle publisher
+    // available.
+    pub_ = this->create_publisher<std_msgs::msg::String>(\"lifecycle_chatter\", 10);
+    timer_ = this->create_wall_timer(
+      1s, std::bind(&LifecycleTalker::publish, this));
+
+    RCLCPP_INFO(get_logger(), \"on_configure() is called.\");
+
+    // We return a success and hence invoke the transition to the next
+    // step: \"inactive\".
+    // If we returned TRANSITION_CALLBACK_FAILURE instead, the state machine
+    // would stay in the \"unconfigured\" state.
+    // In case of TRANSITION_CALLBACK_ERROR or any thrown exception within
+    // this callback, the state machine transitions to state \"errorprocessing\".
+    return rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn::SUCCESS;
+  }
+
+  /// Transition callback for state activating
+  /**
+   * on_activate callback is being called when the lifecycle node
+   * enters the \"activating\" state.
+   * Depending on the return value of this function, the state machine
+   * either invokes a transition to the \"active\" state or stays
+   * in \"inactive\".
+   * TRANSITION_CALLBACK_SUCCESS transitions to \"active\"
+   * TRANSITION_CALLBACK_FAILURE transitions to \"inactive\"
+   * TRANSITION_CALLBACK_ERROR or any uncaught exceptions to \"errorprocessing\"
+   */
+  rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn
+  on_activate(const rclcpp_lifecycle::State &)
+  {
+    // We explicitly activate the lifecycle publisher.
+    // Starting from this point, all messages are no longer
+    // ignored but sent into the network.
+    pub_->on_activate();
+
+    RCUTILS_LOG_INFO_NAMED(get_name(), \"on_activate() is called.\");
+
+    // Let's sleep for 2 seconds.
+    // We emulate we are doing important
+    // work in the activating phase.
+    std::this_thread::sleep_for(2s);
+
+    // We return a success and hence invoke the transition to the next
+    // step: \"active\".
+    // If we returned TRANSITION_CALLBACK_FAILURE instead, the state machine
+    // would stay in the \"inactive\" state.
+    // In case of TRANSITION_CALLBACK_ERROR or any thrown exception within
+    // this callback, the state machine transitions to state \"errorprocessing\".
+    return rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn::SUCCESS;
+  }
+
+  /// Transition callback for state deactivating
+  /**
+   * on_deactivate callback is being called when the lifecycle node
+   * enters the \"deactivating\" state.
+   * Depending on the return value of this function, the state machine
+   * either invokes a transition to the \"inactive\" state or stays
+   * in \"active\".
+   * TRANSITION_CALLBACK_SUCCESS transitions to \"inactive\"
+   * TRANSITION_CALLBACK_FAILURE transitions to \"active\"
+   * TRANSITION_CALLBACK_ERROR or any uncaught exceptions to \"errorprocessing\"
+   */
+  rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn
+  on_deactivate(const rclcpp_lifecycle::State &)
+  {
+    // We explicitly deactivate the lifecycle publisher.
+    // Starting from this point, all messages are no longer
+    // sent into the network.
+    pub_->on_deactivate();
+
+    RCUTILS_LOG_INFO_NAMED(get_name(), \"on_deactivate() is called.\");
+
+    // We return a success and hence invoke the transition to the next
+    // step: \"inactive\".
+    // If we returned TRANSITION_CALLBACK_FAILURE instead, the state machine
+    // would stay in the \"active\" state.
+    // In case of TRANSITION_CALLBACK_ERROR or any thrown exception within
+    // this callback, the state machine transitions to state \"errorprocessing\".
+    return rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn::SUCCESS;
+  }
+
+  /// Transition callback for state cleaningup
+  /**
+   * on_cleanup callback is being called when the lifecycle node
+   * enters the \"cleaningup\" state.
+   * Depending on the return value of this function, the state machine
+   * either invokes a transition to the \"unconfigured\" state or stays
+   * in \"inactive\".
+   * TRANSITION_CALLBACK_SUCCESS transitions to \"unconfigured\"
+   * TRANSITION_CALLBACK_FAILURE transitions to \"inactive\"
+   * TRANSITION_CALLBACK_ERROR or any uncaught exceptions to \"errorprocessing\"
+   */
+  rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn
+  on_cleanup(const rclcpp_lifecycle::State &)
+  {
+    // In our cleanup phase, we release the shared pointers to the
+    // timer and publisher. These entities are no longer available
+    // and our node is \"clean\".
+    timer_.reset();
+    pub_.reset();
+
+    RCUTILS_LOG_INFO_NAMED(get_name(), \"on cleanup is called.\");
+
+    // We return a success and hence invoke the transition to the next
+    // step: \"unconfigured\".
+    // If we returned TRANSITION_CALLBACK_FAILURE instead, the state machine
+    // would stay in the \"inactive\" state.
+    // In case of TRANSITION_CALLBACK_ERROR or any thrown exception within
+    // this callback, the state machine transitions to state \"errorprocessing\".
+    return rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn::SUCCESS;
+  }
+
+  /// Transition callback for state shutting down
+  /**
+   * on_shutdown callback is being called when the lifecycle node
+   * enters the \"shuttingdown\" state.
+   * Depending on the return value of this function, the state machine
+   * either invokes a transition to the \"finalized\" state or stays
+   * in its current state.
+   * TRANSITION_CALLBACK_SUCCESS transitions to \"finalized\"
+   * TRANSITION_CALLBACK_FAILURE transitions to current state
+   * TRANSITION_CALLBACK_ERROR or any uncaught exceptions to \"errorprocessing\"
+   */
+  rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn
+  on_shutdown(const rclcpp_lifecycle::State & state)
+  {
+    // In our shutdown phase, we release the shared pointers to the
+    // timer and publisher. These entities are no longer available
+    // and our node is \"clean\".
+    timer_.reset();
+    pub_.reset();
+
+    RCUTILS_LOG_INFO_NAMED(
+      get_name(),
+      \"on shutdown is called from state %s.\",
+      state.label().c_str());
+
+    // We return a success and hence invoke the transition to the next
+    // step: \"finalized\".
+    // If we returned TRANSITION_CALLBACK_FAILURE instead, the state machine
+    // would stay in the current state.
+    // In case of TRANSITION_CALLBACK_ERROR or any thrown exception within
+    // this callback, the state machine transitions to state \"errorprocessing\".
+    return rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn::SUCCESS;
+  }
+
+private:
+  // We hold an instance of a lifecycle publisher. This lifecycle publisher
+  // can be activated or deactivated regarding on which state the lifecycle node
+  // is in.
+  // By default, a lifecycle publisher is inactive by creation and has to be
+  // activated to publish messages into the ROS world.
+  std::shared_ptr<rclcpp_lifecycle::LifecyclePublisher<std_msgs::msg::String>> pub_;
+
+  // We hold an instance of a timer which periodically triggers the publish function.
+  // As for the beta version, this is a regular timer. In a future version, a
+  // lifecycle timer will be created which obeys the same lifecycle management as the
+  // lifecycle publisher.
+  std::shared_ptr<rclcpp::TimerBase> timer_;
+};
+
+/**
+ * A lifecycle node has the same node API
+ * as a regular node. This means we can spawn a
+ * node, give it a name and add it to the executor.
+ */
+int main(int argc, char * argv[])
+{" 0 1 (fontified t face font-lock-comment-delimiter-face c-in-sws t c-is-sws t) 1 3 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 3 56 (fontified t face font-lock-comment-face c-in-sws t) 56 58 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 58 59 (fontified t face font-lock-comment-face c-in-sws t) 59 62 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 62 126 (fontified t face font-lock-comment-face c-in-sws t) 126 129 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 129 194 (fontified t face font-lock-comment-face c-in-sws t) 194 197 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 197 237 (fontified t face font-lock-comment-face c-in-sws t) 237 239 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 239 240 (fontified t face font-lock-comment-face c-in-sws t) 240 247 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 247 290 (fontified t face font-lock-comment-face c-in-sws t) 290 292 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 292 293 (fontified t face font-lock-comment-face c-in-sws t) 293 296 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 296 364 (fontified t face font-lock-comment-face c-in-sws t) 364 367 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 367 433 (fontified t face font-lock-comment-face c-in-sws t) 433 436 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 436 500 (fontified t face font-lock-comment-face c-in-sws t) 500 509 (fontified t face font-lock-comment-face c-in-sws t) 509 510 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 510 512 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 512 580 (fontified t face font-lock-comment-face c-in-sws t) 580 583 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 583 613 (fontified t face font-lock-comment-face c-in-sws t) 613 614 (fontified t face font-lock-comment-face c-in-sws t) 614 615 (fontified t c-is-sws t c-in-sws t) 615 616 (fontified t face font-lock-preprocessor-face c-is-sws t c-in-sws t) 616 623 (fontified t face font-lock-preprocessor-face c-in-sws t) 623 624 (fontified t c-in-sws t) 624 625 (fontified t face (rainbow-delimiters-depth-1-face font-lock-string-face) category c-<-as-paren-syntax c-in-sws t) 625 631 (fontified t face font-lock-string-face c-in-sws t) 631 632 (fontified t face (rainbow-delimiters-depth-1-face font-lock-string-face) category c->-as-paren-syntax c-in-sws t) 632 633 (fontified t c-in-sws t) 633 634 (fontified t face font-lock-preprocessor-face c-is-sws t c-in-sws t) 634 641 (fontified t face font-lock-preprocessor-face c-in-sws t) 641 642 (fontified t c-in-sws t) 642 643 (fontified t face (rainbow-delimiters-depth-1-face font-lock-string-face) category c-<-as-paren-syntax c-in-sws t) 643 651 (fontified t face font-lock-string-face c-in-sws t) 651 652 (fontified t face (rainbow-delimiters-depth-1-face font-lock-string-face) category c->-as-paren-syntax c-in-sws t) 652 653 (fontified t c-in-sws t) 653 654 (fontified t face font-lock-preprocessor-face c-is-sws t c-in-sws t) 654 661 (fontified t face font-lock-preprocessor-face c-in-sws t) 661 662 (fontified t c-in-sws t) 662 663 (fontified t face (rainbow-delimiters-depth-1-face font-lock-string-face) category c-<-as-paren-syntax c-in-sws t) 663 669 (fontified t face font-lock-string-face c-in-sws t) 669 670 (fontified t face (rainbow-delimiters-depth-1-face font-lock-string-face) category c->-as-paren-syntax c-in-sws t) 670 671 (fontified t c-in-sws t) 671 672 (fontified t face font-lock-preprocessor-face c-is-sws t c-in-sws t) 672 679 (fontified t face font-lock-preprocessor-face c-in-sws t) 679 680 (fontified t c-in-sws t) 680 681 (fontified t face (rainbow-delimiters-depth-1-face font-lock-string-face) category c-<-as-paren-syntax c-in-sws t) 681 687 (fontified t face font-lock-string-face c-in-sws t) 687 688 (fontified t face (rainbow-delimiters-depth-1-face font-lock-string-face) category c->-as-paren-syntax c-in-sws t) 688 689 (fontified t c-in-sws t) 689 690 (fontified t face font-lock-preprocessor-face c-is-sws t c-in-sws t) 690 697 (fontified t face font-lock-preprocessor-face c-in-sws t) 697 698 (fontified t c-in-sws t) 698 699 (fontified t face (rainbow-delimiters-depth-1-face font-lock-string-face) category c-<-as-paren-syntax c-in-sws t) 699 705 (fontified t face font-lock-string-face c-in-sws t) 705 706 (fontified t face (rainbow-delimiters-depth-1-face font-lock-string-face) category c->-as-paren-syntax c-in-sws t) 706 707 (fontified t c-in-sws t) 707 708 (fontified t face font-lock-preprocessor-face c-is-sws t c-in-sws t) 708 715 (fontified t face font-lock-preprocessor-face c-in-sws t) 715 716 (fontified t c-in-sws t) 716 717 (fontified t face (rainbow-delimiters-depth-1-face font-lock-string-face) category c-<-as-paren-syntax c-in-sws t) 717 724 (fontified t face font-lock-string-face c-in-sws t) 724 725 (fontified t face (rainbow-delimiters-depth-1-face font-lock-string-face) category c->-as-paren-syntax c-in-sws t) 725 726 (fontified t c-in-sws t) 726 727 (fontified t c-in-sws t c-is-sws t) 727 728 (fontified t face font-lock-preprocessor-face c-is-sws t c-in-sws t) 728 735 (fontified t face font-lock-preprocessor-face c-in-sws t) 735 736 (fontified t c-in-sws t) 736 771 (fontified t face font-lock-string-face c-in-sws t) 771 772 (fontified t c-in-sws t) 772 773 (fontified t c-in-sws t c-is-sws t) 773 774 (fontified t face font-lock-preprocessor-face c-is-sws t c-in-sws t) 774 781 (fontified t face font-lock-preprocessor-face c-in-sws t) 781 782 (fontified t c-in-sws t) 782 801 (fontified t face font-lock-string-face c-in-sws t) 801 802 (fontified t c-in-sws t) 802 803 (fontified t face font-lock-preprocessor-face c-is-sws t c-in-sws t) 803 810 (fontified t face font-lock-preprocessor-face c-in-sws t) 810 811 (fontified t c-in-sws t) 811 833 (fontified t face font-lock-string-face c-in-sws t) 833 834 (fontified t c-in-sws t) 834 835 (fontified t c-in-sws t c-is-sws t) 835 836 (fontified t face font-lock-preprocessor-face c-is-sws t c-in-sws t) 836 843 (fontified t face font-lock-preprocessor-face c-in-sws t) 843 844 (fontified t c-in-sws t) 844 881 (fontified t face font-lock-string-face c-in-sws t) 881 882 (fontified t c-in-sws t) 882 883 (fontified t face font-lock-preprocessor-face c-is-sws t c-in-sws t) 883 890 (fontified t face font-lock-preprocessor-face c-in-sws t) 890 891 (fontified t c-in-sws t) 891 933 (fontified t face font-lock-string-face c-in-sws t) 933 934 (fontified t c-in-sws t) 934 935 (fontified t c-in-sws t c-is-sws t) 935 936 (fontified t face font-lock-preprocessor-face c-is-sws t c-in-sws t) 936 943 (fontified t face font-lock-preprocessor-face c-in-sws t) 943 944 (fontified t c-in-sws t) 944 970 (fontified t face font-lock-string-face c-in-sws t) 970 971 (fontified t c-in-sws t) 971 972 (fontified t c-in-sws t c-is-sws t) 972 973 (fontified t face font-lock-preprocessor-face c-is-sws t c-in-sws t) 973 980 (fontified t face font-lock-preprocessor-face c-in-sws t) 980 981 (fontified t c-in-sws t) 981 1006 (fontified t face font-lock-string-face c-in-sws t) 1006 1007 (fontified t c-in-sws t) 1007 1008 (fontified t c-in-sws t c-is-sws t) 1008 1009 (fontified t face font-lock-keyword-face c-is-sws t) 1009 1013 (fontified t face font-lock-keyword-face) 1013 1014 (fontified t) 1014 1023 (fontified t face font-lock-keyword-face) 1023 1024 (fontified t) 1024 1027 (fontified t face font-lock-constant-face) 1027 1029 (fontified t) 1029 1043 (fontified t face font-lock-constant-face) 1043 1044 (fontified t c-type c-decl-id-start face font-lock-constant-face) 1044 1046 (fontified t) 1046 1047 (fontified t) 1047 1048 (fontified t c-is-sws t c-in-sws t face font-lock-comment-delimiter-face) 1048 1051 (fontified t c-in-sws t face font-lock-comment-delimiter-face) 1051 1115 (fontified t c-in-sws t face font-lock-comment-face) 1115 1118 (fontified t c-in-sws t face font-lock-doc-face) 1118 1546 (fontified t c-in-sws t face font-lock-doc-face) 1546 1547 (fontified t c-in-sws t face font-lock-doc-face) 1547 1774 (c-in-sws t face font-lock-doc-face) 1774 1775 (c-is-sws t) 1775 1776 (c-is-sws t) 8966 8971 (c-in-sws t c-is-sws t) 8971 9261 (c-in-sws t) 9261 9265 (c-is-sws t c-in-sws t) 9265 9266 (c-is-sws t) 9441 9444 (c-in-sws t c-is-sws t) 9444 9491 (c-in-sws t) 9491 9493 (c-is-sws t c-in-sws t) 9493 9494 (c-is-sws t c-in-sws t) 9494 9975 (c-in-sws t) 9975 9976 (c-is-sws t) 10047 10048 (c-type c-decl-id-start) 10051 10062 (face font-lock-function-name-face) 10087 10092 (face font-lock-type-face) 10435 10440 (c-in-sws t c-is-sws t) 10440 10804 (c-in-sws t) 10804 10808 (c-is-sws t c-in-sws t) 10808 10809 (c-is-sws t) 10904 10911 (face font-lock-keyword-face fontified t) 10911 10912 (c-type c-decl-end fontified t) 10912 10913 (fontified t) 10913 10915 (c-in-sws t c-is-sws t fontified t) 10915 10916 (c-in-sws t c-is-sws t face font-lock-comment-delimiter-face fontified t) 10916 10918 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 10918 10989 (c-in-sws t face font-lock-comment-face fontified t) 10989 10990 (fontified t c-is-sws t c-in-sws t) 10990 10991 (fontified t c-is-sws t c-in-sws t) 10991 10992 (fontified t c-is-sws t c-in-sws t face font-lock-comment-delimiter-face) 10992 10994 (fontified t c-in-sws t face font-lock-comment-delimiter-face) 10994 11070 (fontified t c-in-sws t face font-lock-comment-face) 11070 11072 (fontified t c-in-sws t) 11072 11075 (fontified t c-in-sws t face font-lock-comment-delimiter-face) 11075 11082 (fontified t c-in-sws t face font-lock-comment-face) 11082 11084 (fontified t c-in-sws t) 11084 11087 (fontified t c-in-sws t face font-lock-comment-delimiter-face) 11087 11159 (fontified t c-in-sws t face font-lock-comment-face) 11159 11161 (fontified t c-in-sws t) 11161 11164 (fontified t c-in-sws t face font-lock-comment-delimiter-face) 11164 11214 (fontified t c-in-sws t face font-lock-comment-face) 11214 11216 (fontified t c-in-sws t) 11216 11217 (fontified t c-is-sws t face font-lock-constant-face) 11217 11219 (fontified t face font-lock-constant-face) 11219 11221 (fontified t) 11221 11231 (fontified t face font-lock-type-face) 11231 11232 (fontified t category c-<-as-paren-syntax face (rainbow-delimiters-depth-2-face)) 11232 11248 (fontified t face font-lock-constant-face) 11248 11250 (fontified t) 11250 11268 (fontified t face font-lock-type-face) 11268 11269 (fontified t category c-<-as-paren-syntax face (rainbow-delimiters-depth-3-face)) 11269 11277 (fontified t face font-lock-constant-face) 11277 11279 (fontified t) 11279 11282 (fontified t face font-lock-constant-face) 11282 11290 (fontified t) 11290 11291 (fontified t category c->-as-paren-syntax face (rainbow-delimiters-depth-3-face)) 11291 11292 (fontified t category c->-as-paren-syntax c-type c-decl-id-start face (rainbow-delimiters-depth-2-face)) 11292 11293 (fontified t) 11293 11297 (fontified t face font-lock-variable-name-face) 11297 11300 (fontified t) 11300 11302 (fontified t c-in-sws t c-is-sws t) 11302 11303 (fontified t face font-lock-comment-delimiter-face c-in-sws t c-is-sws t) 11303 11305 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 11305 11386 (fontified t face font-lock-comment-face c-in-sws t) 11386 11388 (fontified t c-in-sws t) 11388 11391 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 11391 11464 (fontified t face font-lock-comment-face c-in-sws t) 11464 11466 (fontified t c-in-sws t) 11466 11469 (fontified t face font-lock-comment-delimiter-face c-in-sws t) 11469 11489 (fontified t face font-lock-comment-face c-in-sws t) 11489 11549 (face font-lock-comment-face fontified t c-in-sws t) 11549 11550 (face font-lock-comment-face fontified t c-in-sws t) 11550 11551 (fontified t c-is-sws t c-in-sws t) 11551 11552 (fontified t c-is-sws t c-in-sws t) 11552 11553 (fontified t c-is-sws t c-in-sws t face font-lock-comment-delimiter-face) 11553 11555 (fontified t c-in-sws t face font-lock-comment-delimiter-face) 11555 11576 (fontified t c-in-sws t face font-lock-comment-face) 11576 11578 (fontified t c-in-sws t) 11578 11579 (fontified t c-is-sws t face font-lock-constant-face) 11579 11581 (fontified t face font-lock-constant-face) 11581 11583 (fontified t) 11583 11593 (fontified t face font-lock-type-face) 11593 11594 (fontified t category c-<-as-paren-syntax face (rainbow-delimiters-depth-2-face)) 11594 11600 (fontified t face font-lock-constant-face) 11600 11611 (fontified t) 11611 11612 (fontified t category c->-as-paren-syntax c-type c-decl-id-start face (rainbow-delimiters-depth-2-face)) 11612 11613 (fontified t) 11613 11619 (fontified t face font-lock-variable-name-face) 11619 11621 (fontified t) 11621 11622 (fontified t face (rainbow-delimiters-depth-1-face)) 11622 11625 (fontified t) 11625 11626 (c-is-sws t c-in-sws t fontified t face font-lock-doc-face) 11626 11628 (c-in-sws t fontified t face font-lock-doc-face) 11628 11771 (c-in-sws t fontified t face font-lock-doc-face) 11771 11774 (c-in-sws t fontified t face font-lock-doc-face) 11774 11775 (c-in-sws t fontified t) 11775 11776 (c-is-sws t face font-lock-type-face fontified t) 11776 11777 (face font-lock-type-face fontified t) 11777 11778 (c-type c-decl-id-start face font-lock-type-face fontified t) 11778 11779 (fontified t) 11779 11783 (face font-lock-function-name-face fontified t) 11783 11784 (c-type c-decl-arg-start face (rainbow-delimiters-depth-1-face) fontified t) 11784 11787 (face font-lock-type-face fontified t) 11787 11788 (fontified t) 11788 11792 (face font-lock-variable-name-face fontified t) 11792 11793 (c-type c-decl-arg-start fontified t) 11793 11794 (fontified t) 11794 11798 (face font-lock-type-face fontified t) 11798 11801 (fontified t) 11801 11805 (face font-lock-variable-name-face fontified t) 11805 11806 (face (rainbow-delimiters-depth-2-face) fontified t) 11806 11807 (face (rainbow-delimiters-depth-2-face) fontified t) 11807 11808 (face (rainbow-delimiters-depth-1-face) fontified t) 11808 11809 (fontified t) 11809 11810 (fontified t face (rainbow-delimiters-depth-1-face))) . 1) (undo-tree-id377 . -11809) (undo-tree-id378 . -11809) (undo-tree-id379 . -11809) (undo-tree-id380 . -11159) (undo-tree-id381 . -11809) (undo-tree-id382 . -11809) (undo-tree-id383 . -11809) (undo-tree-id384 . -11809) (undo-tree-id385 . -11809) (t 26225 61453 335372 645000)) nil (26226 32313 42856 931000) 0 nil])
+([nil nil ((#("
+  // force flush of the stdout buffer.
+  // this ensures a correct sync of all prints
+  // even when executed simultaneously within the launch file.
+  setvbuf(stdout, NULL, _IONBF, BUFSIZ);
+
+  rclcpp::init(argc, argv);
+
+  rclcpp::executors::SingleThreadedExecutor exe;
+
+  std::shared_ptr<LifecycleTalker> lc_node =
+    std::make_shared<LifecycleTalker>(\"lc_talker\");
+
+  exe.add_node(lc_node->get_node_base_interface());
+
+  exe.spin();
+
+  rclcpp::shutdown();
+
+  return 0;
+}
+" 0 1 (fontified t) 1 3 (fontified t) 3 4 (c-is-sws t c-in-sws t fontified t face font-lock-comment-delimiter-face) 4 6 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 6 40 (c-in-sws t fontified t face font-lock-comment-face) 40 42 (c-in-sws t fontified t) 42 45 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 45 87 (c-in-sws t fontified t face font-lock-comment-face) 87 89 (c-in-sws t fontified t) 89 92 (c-in-sws t fontified t face font-lock-comment-delimiter-face) 92 150 (c-in-sws t fontified t face font-lock-comment-face) 150 152 (c-in-sws t fontified t) 152 153 (c-is-sws t fontified t) 153 159 (fontified t) 159 160 (fontified t face (rainbow-delimiters-depth-1-face)) 160 168 (fontified t) 168 172 (fontified t face font-lock-constant-face) 172 188 (fontified t) 188 189 (fontified t face (rainbow-delimiters-depth-1-face)) 189 194 (fontified t) 194 200 (fontified t face font-lock-constant-face) 200 206 (fontified t) 206 207 (fontified t face (rainbow-delimiters-depth-1-face)) 207 217 (fontified t) 217 218 (fontified t face (rainbow-delimiters-depth-1-face)) 218 223 (fontified t) 223 229 (fontified t face font-lock-constant-face) 229 231 (fontified t) 231 240 (fontified t face font-lock-constant-face) 240 242 (fontified t) 242 263 (fontified t face font-lock-type-face) 263 264 (fontified t c-type c-decl-id-start face font-lock-type-face) 264 265 (fontified t) 265 268 (fontified t face font-lock-variable-name-face) 268 273 (fontified t) 273 276 (fontified t face font-lock-constant-face) 276 278 (fontified t) 278 288 (fontified t face font-lock-type-face) 288 289 (category c-<-as-paren-syntax fontified t face (rainbow-delimiters-depth-1-face)) 289 304 (fontified t) 304 305 (category c->-as-paren-syntax fontified t c-type c-decl-id-start face (rainbow-delimiters-depth-1-face)) 305 306 (fontified t) 306 313 (fontified t face font-lock-variable-name-face) 313 320 (fontified t) 320 323 (fontified t face font-lock-constant-face) 323 336 (fontified t) 336 337 (category c-<-as-paren-syntax fontified t face (rainbow-delimiters-depth-1-face)) 337 352 (fontified t) 352 353 (category c->-as-paren-syntax fontified t face (rainbow-delimiters-depth-1-face)) 353 354 (fontified t face (rainbow-delimiters-depth-1-face)) 354 365 (fontified t face font-lock-string-face) 365 366 (fontified t face (rainbow-delimiters-depth-1-face)) 366 383 (fontified t) 383 384 (fontified t face (rainbow-delimiters-depth-1-face)) 384 416 (fontified t) 416 417 (fontified t face (rainbow-delimiters-depth-2-face)) 417 418 (fontified t face (rainbow-delimiters-depth-2-face)) 418 419 (fontified t face (rainbow-delimiters-depth-1-face)) 419 432 (fontified t) 432 433 (fontified t face (rainbow-delimiters-depth-1-face)) 433 434 (fontified t face (rainbow-delimiters-depth-1-face)) 434 439 (fontified t) 439 445 (fontified t face font-lock-constant-face) 445 455 (fontified t) 455 456 (fontified t face (rainbow-delimiters-depth-1-face)) 456 457 (fontified t face (rainbow-delimiters-depth-1-face)) 457 462 (fontified t) 462 468 (fontified t face font-lock-keyword-face) 468 472 (fontified t) 472 473 (fontified t face (rainbow-delimiters-unmatched-face)) 473 474 (rear-nonsticky t fontified t)) . 1) (undo-tree-id372 . -474) (undo-tree-id373 . -473) (undo-tree-id374 . -474) (undo-tree-id375 . -474) (undo-tree-id376 . -474) 475) nil (26226 32313 42841 18000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 12542 . 12543) (nil fontified nil 12422 . 12543) (nil fontified nil 12421 . 12422) (nil category c->-as-paren-syntax 12421 . 12422) (nil fontified nil 12406 . 12421) (nil fontified nil 12405 . 12406) (nil category c-<-as-paren-syntax 12405 . 12406) (nil fontified nil 12374 . 12405) (nil fontified nil 12373 . 12374) (nil category c->-as-paren-syntax 12373 . 12374) (nil fontified nil 12358 . 12373) (nil fontified nil 12357 . 12358) (nil category c-<-as-paren-syntax 12357 . 12358) (nil fontified nil 11871 . 12357) (nil fontified nil 11870 . 11871) (nil category c->-as-paren-syntax 11870 . 11871) (nil fontified nil 11853 . 11870) (nil fontified nil 11852 . 11853) (nil category c-<-as-paren-syntax 11852 . 11853) (nil fontified nil 11551 . 11852) (nil fontified nil 11550 . 11551) (nil category c->-as-paren-syntax 11550 . 11551) (nil fontified nil 11549 . 11550) (nil category c->-as-paren-syntax 11549 . 11550) (nil fontified nil 11528 . 11549) (nil fontified nil 11527 . 11528) (nil category c-<-as-paren-syntax 11527 . 11528) (nil fontified nil 11491 . 11527) (nil fontified nil 11490 . 11491) (nil category c-<-as-paren-syntax 11490 . 11491) (nil fontified nil 6202 . 11490) (nil fontified nil 6201 . 6202) (nil fontified nil 4521 . 6201) (nil fontified nil 4520 . 4521) (nil category c->-as-paren-syntax 4520 . 4521) (nil fontified nil 4499 . 4520) (nil fontified nil 4498 . 4499) (nil category c-<-as-paren-syntax 4498 . 4499) (nil fontified nil 2708 . 4498) (nil fontified nil 2707 . 2708) (nil category c->-as-paren-syntax 2707 . 2708) (nil fontified nil 2686 . 2707) (nil fontified nil 2685 . 2686) (nil category c-<-as-paren-syntax 2685 . 2686) (nil fontified nil 1 . 2685) (1 . 12543)) nil (26226 32313 42809 238000) 0 nil])
+([nil nil ((#("lc" 0 2 (fontified t face font-lock-string-face)) . 12424) (undo-tree-id388 . -1) (t 26226 32313 59072 508000)) nil (26226 40891 565464 28000) 0 nil])
+([nil nil ((#("_" 0 1 (fontified t face font-lock-string-face)) . 12424)) nil (26226 40891 565457 417000) 0 nil])
+([nil nil ((#("talker" 0 6 (fontified t face font-lock-string-face)) . 12424) (undo-tree-id386 . -5) (undo-tree-id387 . -6)) nil (26226 40891 565452 42000) 0 nil])
+([nil current ((12424 . 12432)) nil (26226 40891 565407 228000) 0 nil])
+nil

@@ -1,0 +1,12 @@
+(undo-tree-save-format-version . 1)
+"4b854c64049584468560f9e396d1e0aba0f2c6a6"
+[nil nil nil nil (26219 12252 777635 664000) 0 nil]
+([nil nil ((#("test" 0 4 (fontified t face font-lock-string-face)) . 484) (undo-tree-id3 . -4) (undo-tree-id4 . -3) (t 26219 12221 478250 134000)) nil (26219 12252 777632 611000) 0 nil])
+([nil nil ((#("_" 0 1 (fontified t face font-lock-string-face)) . 484) (undo-tree-id2 . -1)) nil (26219 12252 777626 311000) 0 nil])
+([nil nil ((#("pubsub" 0 6 (fontified t face font-lock-string-face)) . 484) (undo-tree-id0 . -5) (undo-tree-id1 . -6)) nil (26219 12252 777618 961000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 501 . 502) (nil fontified nil 484 . 502) (484 . 502) 483) nil (26219 12252 777574 209000) 0 nil])
+([nil nil ((#("test_pubsub::NodeMsgNo" 0 22 (fontified t face font-lock-string-face)) . 529) (undo-tree-id5 . -21) (undo-tree-id6 . -21) (undo-tree-id7 . -21) (undo-tree-id8 . -18) (undo-tree-id9 . -18) (undo-tree-id10 . -18) (undo-tree-id11 . -18) (undo-tree-id12 . -18) (undo-tree-id13 . -18) (undo-tree-id14 . -21) (undo-tree-id15 . -22) (undo-tree-id16 . -21) (undo-tree-id17 . -5) (undo-tree-id18 . -5) (undo-tree-id19 . -5) (undo-tree-id20 . -5) (undo-tree-id21 . -5) (undo-tree-id22 . -5) (undo-tree-id23 . -5) (undo-tree-id24 . -5) (undo-tree-id25 . -21) (undo-tree-id26 . -21) (undo-tree-id27 . -21) (undo-tree-id28 . -21) (undo-tree-id29 . -21) (undo-tree-id30 . -21) (undo-tree-id31 . -22) 550 (t 26219 12252 784275 159000)) nil (26219 12264 909013 178000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 554 . 555) (nil fontified nil 529 . 555) (529 . 555) 528) nil (26219 12264 908939 988000) 0 nil])
+([nil nil ((#("tester" 0 6 (fontified t face font-lock-string-face)) . 580) (undo-tree-id32 . -5) (undo-tree-id33 . -6) (t 26219 12264 947537 939000)) nil (26219 12283 477895 405000) 0 nil])
+([nil current ((580 . 586)) nil (26219 12283 477869 184000) 0 nil])
+nil

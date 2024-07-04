@@ -1,0 +1,4 @@
+source;share/managed_talker/local_setup.bash
+source;share/managed_talker/local_setup.dsv
+source;share/managed_talker/local_setup.sh
+source;share/managed_talker/local_setup.zsh

@@ -1,0 +1,30 @@
+(undo-tree-save-format-version . 1)
+"cc8bc09f583b46792394a5dd1e5060968f41a514"
+[nil nil nil nil (26231 63851 189399 281000) 0 nil]
+([nil current ((nil fontified t 30 . 31) (nil face (rainbow-delimiters-depth-1-face font-lock-string-face) 30 . 31) (nil c-in-sws t 30 . 31) (30 . 31) (#("io" 0 2 (fontified t face font-lock-string-face c-in-sws t)) . 30) (34 . 38) (#("ream" 0 4 (fontified t face font-lock-string-face c-in-sws t)) . 34) (nil fontified t 50 . 53) (nil face (rainbow-delimiters-depth-1-face font-lock-string-face) 50 . 53) (nil c-in-sws t 50 . 53) (50 . 53) (#("s" 0 1 (fontified t face font-lock-string-face c-in-sws t)) . 51) (#("d" 0 1 (fontified t face font-lock-string-face c-in-sws t)) . 53) (55 . 56) (56 . 73) (57 . 61) (nil fontified t 69 . 71) (nil face (rainbow-delimiters-depth-1-face font-lock-string-face) 69 . 71) (nil c-in-sws t 69 . 71) (69 . 71) (70 . 73) (#("un" 0 2 (fontified t face font-lock-string-face c-in-sws t)) . 70) (73 . 85) (74 . 80) (77 . 81) (#("al" 0 2 (fontified t face font-lock-string-face c-in-sws t)) . 77) (#("th" 0 2 (fontified t face font-lock-string-face c-in-sws t)) . 198) (201 . 218) (#("ead" 0 3 (fontified t face font-lock-string-face c-in-sws t)) . 201) (nil fontified t 216 . 218) (nil face (rainbow-delimiters-depth-1-face font-lock-string-face) 216 . 218) (nil c-in-sws t 216 . 218) (216 . 218) (#("uti" 0 3 (fontified t face font-lock-string-face c-in-sws t)) . 216) (220 . 231) (#("i" 0 1 (fontified t face font-lock-string-face c-in-sws t)) . 220) (222 . 230) (#("y" 0 1 (fontified t face font-lock-string-face c-in-sws t)) . 222) (242 . 245) (#("ogg" 0 3 (fontified t face font-lock-string-face c-in-sws t)) . 243) (247 . 251) (#("ng" 0 2 (fontified t face font-lock-string-face c-in-sws t)) . 247) (272 . 276) (#("node_o" 0 6 (fontified t face font-lock-string-face c-in-sws t)) . 272) (279 . 280) (#("tions" 0 5 (fontified t face font-lock-string-face c-in-sws t)) . 279) (#("ce.hpp>
+#in" 0 3 (fontified t c-in-sws t face font-lock-string-face) 3 6 (fontified t c-in-sws t face font-lock-string-face) 6 7 (fontified t c-in-sws t face (rainbow-delimiters-depth-1-face font-lock-string-face) category c->-as-paren-syntax) 7 8 (fontified t c-in-sws t) 8 9 (fontified t c-is-sws t c-in-sws t face font-lock-preprocessor-face) 9 11 (fontified t c-in-sws t face font-lock-preprocessor-face)) . 514) (undo-tree-id0 . -7) (#("lud" 0 3 (fontified t c-in-sws t face font-lock-preprocessor-face)) . 526) (#(" <lifecycle_msgs/msg/transition" 0 1 (fontified t c-in-sws t) 1 2 (fontified t c-in-sws t face (rainbow-delimiters-depth-1-face font-lock-string-face) category c-<-as-paren-syntax) 2 31 (fontified t c-in-sws t face font-lock-string-face)) . 530) (nil fontified t 718 . 719) (nil c-in-sws t 718 . 719) (nil face (rainbow-delimiters-depth-1-face font-lock-string-face) 718 . 719) (718 . 719) (#("rclcpp/rclcpp." 0 14 (fontified t c-in-sws t face font-lock-string-face)) . 718) (733 . 737) (#("pp" 0 2 (fontified t c-in-sws t face font-lock-string-face)) . 733) (#("rclcpp/p" 0 8 (fontified t c-in-sws t face font-lock-string-face)) . 747) (756 . 758) (#("b" 0 1 (fontified t c-in-sws t face font-lock-string-face)) . 756) (759 . 761) (#("sher.hpp" 0 8 (fontified t c-in-sws t face font-lock-string-face)) . 759) (#("
+" 0 1 (fontified t c-in-sws t)) . 768) 2 (#("
+
+" 0 2 (fontified t)) . 810) 808 (#(" " 0 1 (fontified nil)) . 958) (972 . 974) 967 (#("
+" 0 1 (fontified t)) . 1031) 1029 (#("
+" 0 1 (fontified t)) . 1276) 1274 (1351 . 1369) (1402 . 1420) (#(" " 0 1 (fontified nil)) . 1474) 1473 (1509 . 1550) (#("
+" 0 1 (fontified t)) . 1557) 1555 (#("    " 0 4 (fontified t)) . 1598) 1597 (#("
+
+" 0 2 (fontified t)) . 1621) 1619 (1858 . 1867) (#("
+" 0 1 (fontified t)) . 1887) 1885 (#("
+				   " 0 8 (fontified nil)) . 1927) (#("
+" 0 1 (fontified t)) . 1975) 1973 (2165 . 2174) (#(" " 0 1 (fontified t)) . 2316) (#("
+    " 0 1 (fontified t) 1 5 (fontified t c-in-sws t c-is-sws t)) . 2454) 2448 (2640 . 2641) (2746 . 2755) (#("
+  " 0 3 (fontified t)) . 2778) 2774 (#(" " 0 1 (fontified t)) . 2902) (#("							     
+
+" 0 14 (fontified t)) . 2972) 2971 (#("
+" 0 1 (fontified t)) . 3055) 3053 (3172 . 3181) (#(" " 0 1 (fontified t)) . 3201) 3200 (#(" " 0 1 (fontified t)) . 3323) (#("    " 0 4 (fontified t)) . 3432) 3431 (3502 . 3503) 3498 (3532 . 3533) 3528 (3625 . 3634) (#(" " 0 1 (fontified t)) . 3776) (3955 . 3971) (3984 . 3985) 3979 (4032 . 4033) 4028 (#(" 
+" 0 2 (fontified t c-in-sws t)) . 4062) 4061 (4135 . 4144) (#("  
+
+" 0 4 (fontified t)) . 4165) (undo-tree-id1 . -4) (undo-tree-id2 . 4) (undo-tree-id3 . -4) (undo-tree-id4 . -4) 4163 (nil face (rainbow-delimiters-depth-3-face) 4270 . 4276) (nil fontified nil 4270 . 4276) (4270 . 4276) (#(" " 0 1 (fontified t)) . 4281) (4287 . 4288) (#("
+" 0 1 (fontified t)) . 4338) 4336 (#("
+" 0 1 (fontified t)) . 4361) 4360 (4367 . 4395) (#("
+" 0 1 (fontified t)) . 4485) 4483 (#("  " 0 2 (fontified t c-in-sws t)) . 4742) 4741 (#("
+
+" 0 1 (fontified t c-in-sws t) 1 2 (fontified t c-in-sws t)) . 4765) (undo-tree-id5 . -2) (undo-tree-id6 . -2) 4764 (t 26229 30167 38599 745000)) nil (26231 63851 189368 204000) 0 nil])
+nil

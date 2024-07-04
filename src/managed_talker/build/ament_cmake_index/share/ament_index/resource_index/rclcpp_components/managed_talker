@@ -1,0 +1,2 @@
+managed_talker::Life_Talker;lib/liblife_tester.so
+managed_talker::LifeActivator;lib/libeverything_launcher.so

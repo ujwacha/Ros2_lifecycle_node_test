@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtester_component.a CMakeFiles/tester_component.dir/src/main.cpp.o
+/usr/bin/ranlib libtester_component.a

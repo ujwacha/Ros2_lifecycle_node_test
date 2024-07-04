@@ -1,0 +1,100 @@
+cmake_minimum_required(VERSION 3.8)
+project(managed_talker)
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+# find dependencies
+find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(rclcpp_components REQUIRED)
+find_package(composition REQUIRED)
+find_package(rclcpp_lifecycle REQUIRED)
+find_package(lifecycle_msgs REQUIRED)
+
+# add_executable(life_tester src/main.cpp)
+add_library(life_tester SHARED src/main.cpp)
+
+target_compile_definitions(life_tester PRIVATE "COMPOSITION_BUILDING_DLL")
+
+ament_target_dependencies(life_tester
+  rclcpp
+  std_msgs
+  rclcpp_components
+  rclcpp_lifecycle
+  lifecycle_msgs)
+
+
+rclcpp_components_register_node(
+  life_tester
+  PLUGIN "managed_talker::Life_Talker"
+  EXECUTABLE life_tester_exec
+  )
+
+
+add_executable(life_srv_tester src/ser.cpp)
+
+ament_target_dependencies(life_srv_tester
+  rclcpp
+  std_msgs
+  rclcpp_components
+  rclcpp_lifecycle
+  lifecycle_msgs)
+
+
+install(TARGETS
+  life_srv_tester
+  DESTINATION lib/${PROJECT_NAME})
+
+
+
+
+add_library(everything_launcher SHARED src/activator.cpp)
+
+ament_target_dependencies(everything_launcher
+  rclcpp
+  std_msgs
+  rclcpp_components
+  rclcpp_lifecycle
+  lifecycle_msgs)
+
+
+rclcpp_components_register_node(
+  everything_launcher
+  PLUGIN "managed_talker::LifeActivator"
+  EXECUTABLE all_activator_exec
+  )
+
+
+
+ament_export_targets(exprot_everything_launcher)
+
+install(TARGETS
+  everything_launcher
+  EXPORT exprot_everything_launcher
+  ARCHIVE DESTINATION lib
+  LIBRARY DESTINATION lib
+  RUNTIME DESTINATION bin
+  )
+
+
+
+ament_export_targets(export_life_tester_component)
+
+install(TARGETS
+  life_tester
+  EXPORT export_life_tester_component
+  ARCHIVE DESTINATION lib
+  LIBRARY DESTINATION lib
+  RUNTIME DESTINATION bin
+  )
+
+install(DIRECTORY
+	launch
+	DESTINATION share/${PROJECT_NAME})
+
+
+
+ament_package()

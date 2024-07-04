@@ -1,0 +1,4 @@
+source;share/components_launcher/local_setup.bash
+source;share/components_launcher/local_setup.dsv
+source;share/components_launcher/local_setup.sh
+source;share/components_launcher/local_setup.zsh
